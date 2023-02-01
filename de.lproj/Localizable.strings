@@ -1,0 +1,40 @@
+/* 
+  Localizable.strings
+  AutomatID
+
+  Created by Silvio D'Angelo on 24/10/22.
+  Copyright © 2022 opentech.com. All rights reserved.
+*/
+
+"feedback_btn_close" = "Fertig";
+"feedback_share_jwt" = "Teilen Sie JWT -Token";
+"feedback_body_success" = "Ihre Identität wurde erfolgreich überprüft.\nWir haben ein JWT-Token generiert, das das Ergebnis dieser Identifizierung enthält.";
+"feedback_title_error" = "Fehler";
+"feedback_title_success" = "Identitätsprüfung erfolgreich abgeschlossen";
+
+"welcome_title" = "Willkommen bei AutomatID™™";
+"welcome_body1" = "Smart -Technologie für intelligente Identifikationen";
+"welcome_body2" = "Lesen Sie den NFC -Chip mit ID -Dokumenten und Zahlungskarten, um sich sicher zu identifizieren, ohne Ihre Zeit zu verschwenden.";
+"welcome_btn_start" = "Anfang!";
+"welcome_footer" = "🔓 Ihre Privatsphäre und die Sicherheit Ihrer Daten haben unsere oberste Priorität. In Übereinstimmung mit unserer Mission ist die Daten gelesen immer <b> verschlüsselt </b> und <b> nirgendwo gespeichert. </b>";    
+
+"tc_title" = "AutomatID™ -Nealbedingungen und Bedingungen";
+"tc_btn_accept" = "Akzeptieren und weiter";
+
+"error_management_title" = "Fehlerverwaltung";
+"error_management_body1" = "Wählen Sie, wie Sie während des Identifizierungsprozesses Fehler erwarten möchten.";
+"error_management_switch" = "Fehler wiederholen";
+"error_management_body2_retry" = "Wenn ein Fehler auftritt (z. B. Probleme beim Lesen eines Dokuments oder während der Lebendigkeitskontrolle), wird AutomatID™ eine Fehlermeldung angezeigt, in der Sie aufgefordert werden, es erneut zu versuchen.";
+"error_management_body2_abort" = "Nel caso in cui dovesse verificarsi un errore (ad esempio: problemi durante la lettura di un documento o durante i controlli di liveness) il flusso di riconoscimento AutomatID™ mostrerà un messaggio di errore everrà chiuso. (TT)";
+"error_management_btn_done" = "Fertig";
+
+"id_methods_title" = "Identifikationsmethoden";
+"id_methods_body1" = "Welche Identifikationsmethoden möchten Sie ausprobieren? (Mindestens einen einschalten).";
+"id_methods_passport" = "Elektronischer Reisepass";
+"id_methods_identity_card" = "Elektronische ID -Karte (europäisches
+Format)";
+"id_methods_identity_card_short" = "Ausweise";
+"id_methods_passport_short" = "Reisepass";
+"error_management_retry_short" ="Bei Fehlern erneut versuchen";
+"error_management_abort_short" ="Bei Fehlern nicht erneut versuchen";
+"id_methods_btn_done" = "Fertig";        

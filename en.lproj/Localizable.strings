@@ -1,0 +1,38 @@
+/* 
+  Localizable.strings
+  AutomatID
+
+  Created by Silvio D'Angelo on 24/10/22.
+  Copyright © 2022 opentech.com. All rights reserved.
+*/
+"feedback_btn_close" = "Done";
+"feedback_share_jwt" = "Share JWT Token";
+"feedback_body_success" = "Your identity has been successfully verified.\nWe generated a JWT token containing the result of this identification.";
+"feedback_title_error" = "Error";
+"feedback_title_success" = "Identity verification successfully completed";
+
+"welcome_title" = "Welcome to AutomatID™";
+"welcome_body1" = "Smart Technology for Smart Identifications";
+"welcome_body2" = "Read the NFC chip of ID Documents and payment cards to securely identify yourself without wasting your time.";
+"welcome_btn_start" = "Start!";
+"welcome_footer" = "🔓 Your privacy and the security of your data is our top priority. In line with our mission, the data read is always <b>encrypted</b> and <b>not stored anywhere.</b>";
+"tc_title" = "AutomatID™ Privacy policy";
+"tc_btn_accept" = "Accept and Continue";
+
+"error_management_title" = "Error Management";
+"error_management_body1" = "Choose how you want errors handled during the identification process.";
+"error_management_switch" = "Retry on errors";
+"error_management_body2_retry" = "Whenever an error occurs (e.g.: problems while reading a document or during the liveness check) AutomatID™ will show an error message asking you to try again.";
+"error_management_body2_abort" = "Whenever an error occurs (e.g.: problems while reading a document or during the liveness check) the AutomatID™ flow will be closed.";
+"error_management_btn_done" = "Done";
+
+"id_methods_title" = "Identification Methods";
+"id_methods_body1" = "What identification methods do you want to try? (Turn on at least one).";
+"id_methods_passport" = "Electronic Passport";
+"id_methods_identity_card" = "Electronic ID Card (European
+Format)";
+"id_methods_identity_card_short" = "Identity Cards";
+"id_methods_passport_short" = "Passports";
+"error_management_retry_short" = "Retry on errors";
+"error_management_abort_short" = "Don't retry on errors";
+"id_methods_btn_done" = "Done";

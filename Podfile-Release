@@ -1,0 +1,11 @@
+source 'git@github.com:automatid/automatid_specs.git'
+source 'https://github.com/CocoaPods/Specs.git'
+
+install! 'cocoapods', :deterministic_uuids => false
+use_frameworks!
+platform :ios, '11.0'
+
+
+target 'AutomatID_Example' do
+    pod 'AutomatID'
+end

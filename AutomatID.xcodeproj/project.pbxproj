@@ -1,0 +1,642 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0F2293A67608FFA35F9C1D8B /* Pods_AutomatID_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1007F3734F4E87E27AE36980 /* Pods_AutomatID_Example.framework */; };
+		231F4B5725AC613200044B6C /* MockLaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 231F4B5525AC5D6D00044B6C /* MockLaunchScreen.storyboard */; };
+		2321580028870770000705A6 /* Montserrat-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2372DF382886FC07009F213A /* Montserrat-Bold.ttf */; };
+		2321580128870770000705A6 /* Montserrat-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2372DF392886FC07009F213A /* Montserrat-Medium.ttf */; };
+		2321580228870770000705A6 /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2372DF3A2886FC07009F213A /* Montserrat-Regular.ttf */; };
+		232D9D172902946900EECF83 /* OTHFTermsAndConditionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 232D9D162902946900EECF83 /* OTHFTermsAndConditionsViewController.m */; };
+		2349FEBF29016DA40003A687 /* OTHFSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2349FEBE29016DA40003A687 /* OTHFSettingsViewController.m */; };
+		2349FEC229016E930003A687 /* OTHFResultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2349FEC129016E930003A687 /* OTHFResultViewController.m */; };
+		2361FE342923EBF500F7CA86 /* AutomatIDPressableButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 2361FE332923EBF500F7CA86 /* AutomatIDPressableButton.m */; };
+		2361FE372923EC1900F7CA86 /* AutomatIDSubtitledButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 2361FE362923EC1900F7CA86 /* AutomatIDSubtitledButton.m */; };
+		2361FE3A2923ED9500F7CA86 /* AutomatIDLocalizedLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2361FE392923ED9500F7CA86 /* AutomatIDLocalizedLabel.swift */; };
+		23A358EC29254B6400D0E552 /* sci_demo_app_landing_animation.json in Resources */ = {isa = PBXBuildFile; fileRef = 23A358EB29254B6400D0E552 /* sci_demo_app_landing_animation.json */; };
+		23B4040A2909532D006F01BB /* sci_demo_app_feedback_error.json in Resources */ = {isa = PBXBuildFile; fileRef = 23B404092909532D006F01BB /* sci_demo_app_feedback_error.json */; };
+		23B4040C290958F0006F01BB /* sci_demo_app_feedback_success.json in Resources */ = {isa = PBXBuildFile; fileRef = 23B4040B290958F0006F01BB /* sci_demo_app_feedback_success.json */; };
+		23B4040E29095EBC006F01BB /* sci_demo_app_feedback_settings.json in Resources */ = {isa = PBXBuildFile; fileRef = 23B4040D29095EBC006F01BB /* sci_demo_app_feedback_settings.json */; };
+		23D2485E2907C42B00B19CC2 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 23D248602907C42B00B19CC2 /* Localizable.strings */; };
+		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
+		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
+		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
+		AA8F5F792243A8670053EC4D /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = AAE1ADBE2118869600971A51 /* Settings.bundle */; };
+		AAC54B0921198BFB00D93642 /* versions.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = AAC54B0821198BFB00D93642 /* versions.xcconfig */; };
+		AAD26FAE21BFBF2B0056E3D8 /* Licenses in Resources */ = {isa = PBXBuildFile; fileRef = AAD26FAD21BFBF2B0056E3D8 /* Licenses */; };
+		AAF5E571211355A100536F7F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAF5E564211355A100536F7F /* Main.storyboard */; };
+		AAF5E573211355A100536F7F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AAF5E567211355A100536F7F /* main.m */; };
+		AAF5E574211355A100536F7F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAF5E568211355A100536F7F /* Images.xcassets */; };
+		BFEBF91027FF357F00B6AE38 /* OTHFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF22716F27FF3216006D98A5 /* OTHFViewController.m */; };
+		BFEBF91127FF358400B6AE38 /* OTHFAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BFEBF90F27FF343500B6AE38 /* OTHFAppDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0A5C5D2D42308AC29492E9DF /* Pods-AutomatID_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AutomatID_Example.debug.xcconfig"; path = "Target Support Files/Pods-AutomatID_Example/Pods-AutomatID_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		1007F3734F4E87E27AE36980 /* Pods_AutomatID_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AutomatID_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		231F4B5525AC5D6D00044B6C /* MockLaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MockLaunchScreen.storyboard; sourceTree = "<group>"; };
+		231F4B5625AC5EF400044B6C /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = Settings.bundle; path = MelaConfig/Resources/MULTIPUNTAMENTO/define/Settings.bundle; sourceTree = "<group>"; };
+		232D9D152902946800EECF83 /* OTHFTermsAndConditionsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OTHFTermsAndConditionsViewController.h; sourceTree = "<group>"; };
+		232D9D162902946900EECF83 /* OTHFTermsAndConditionsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OTHFTermsAndConditionsViewController.m; sourceTree = "<group>"; };
+		2349FEBD29016DA40003A687 /* OTHFSettingsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OTHFSettingsViewController.h; sourceTree = "<group>"; };
+		2349FEBE29016DA40003A687 /* OTHFSettingsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OTHFSettingsViewController.m; sourceTree = "<group>"; };
+		2349FEC029016E930003A687 /* OTHFResultViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OTHFResultViewController.h; sourceTree = "<group>"; };
+		2349FEC129016E930003A687 /* OTHFResultViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OTHFResultViewController.m; sourceTree = "<group>"; };
+		23522C1F288FDDC900A9446A /* AutomatID_ExampleRelease.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AutomatID_ExampleRelease.entitlements; sourceTree = "<group>"; };
+		2361FE322923EBF500F7CA86 /* AutomatIDPressableButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AutomatIDPressableButton.h; sourceTree = "<group>"; };
+		2361FE332923EBF500F7CA86 /* AutomatIDPressableButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AutomatIDPressableButton.m; sourceTree = "<group>"; };
+		2361FE352923EC1900F7CA86 /* AutomatIDSubtitledButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AutomatIDSubtitledButton.h; sourceTree = "<group>"; };
+		2361FE362923EC1900F7CA86 /* AutomatIDSubtitledButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AutomatIDSubtitledButton.m; sourceTree = "<group>"; };
+		2361FE382923ED9400F7CA86 /* AutomatID_Example-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AutomatID_Example-Bridging-Header.h"; sourceTree = "<group>"; };
+		2361FE392923ED9500F7CA86 /* AutomatIDLocalizedLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutomatIDLocalizedLabel.swift; sourceTree = "<group>"; };
+		2372DF382886FC07009F213A /* Montserrat-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Montserrat-Bold.ttf"; path = "CustomFonts/Montserrat-Bold.ttf"; sourceTree = "<group>"; };
+		2372DF392886FC07009F213A /* Montserrat-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Montserrat-Medium.ttf"; path = "CustomFonts/Montserrat-Medium.ttf"; sourceTree = "<group>"; };
+		2372DF3A2886FC07009F213A /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Montserrat-Regular.ttf"; path = "CustomFonts/Montserrat-Regular.ttf"; sourceTree = "<group>"; };
+		237E4C1828B7BFCE003A75A2 /* AutomatID-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "AutomatID-Info.plist"; path = "Base.lproj/AutomatID-Info.plist"; sourceTree = "<group>"; };
+		237E4C1A28B7BFD9003A75A2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = en; path = "en.lproj/AutomatID-Info.plist"; sourceTree = "<group>"; };
+		237E4C1B28B7BFDB003A75A2 /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = it; path = "it.lproj/AutomatID-Info.plist"; sourceTree = "<group>"; };
+		23A358E929253F9200D0E552 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = de; path = "de.lproj/AutomatID-Info.plist"; sourceTree = "<group>"; };
+		23A358EA29253F9700D0E552 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
+		23A358EB29254B6400D0E552 /* sci_demo_app_landing_animation.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = sci_demo_app_landing_animation.json; path = LottieAnimations/sci_demo_app_landing_animation.json; sourceTree = "<group>"; };
+		23B404092909532D006F01BB /* sci_demo_app_feedback_error.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = sci_demo_app_feedback_error.json; path = LottieAnimations/sci_demo_app_feedback_error.json; sourceTree = "<group>"; };
+		23B4040B290958F0006F01BB /* sci_demo_app_feedback_success.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = sci_demo_app_feedback_success.json; path = LottieAnimations/sci_demo_app_feedback_success.json; sourceTree = "<group>"; };
+		23B4040D29095EBC006F01BB /* sci_demo_app_feedback_settings.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = sci_demo_app_feedback_settings.json; path = LottieAnimations/sci_demo_app_feedback_settings.json; sourceTree = "<group>"; };
+		23B7CB0B25DEBDEB00380DF0 /* ProjectConfigurationAutomatID_DEMO_IOS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProjectConfigurationAutomatID_DEMO_IOS.h; sourceTree = "<group>"; };
+		23D2485F2907C42B00B19CC2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		23D248612907C42D00B19CC2 /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/Localizable.strings; sourceTree = "<group>"; };
+		4CB0F87E34CA539CC43792E9 /* Pods-AutomatID_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AutomatID_Example.release.xcconfig"; path = "Target Support Files/Pods-AutomatID_Example/Pods-AutomatID_Example.release.xcconfig"; sourceTree = "<group>"; };
+		6003F58A195388D20070C39A /* AutomatID_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutomatID_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6003F591195388D20070C39A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		AAC54B0821198BFB00D93642 /* versions.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = versions.xcconfig; sourceTree = "<group>"; };
+		AAC54B0A21198FEA00D93642 /* debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = debug.xcconfig; sourceTree = "<group>"; };
+		AAC54B0B21198FEA00D93642 /* release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = release.xcconfig; sourceTree = "<group>"; };
+		AAD26FAD21BFBF2B0056E3D8 /* Licenses */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Licenses; sourceTree = "<group>"; };
+		AAE1ADBE2118869600971A51 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = SOURCE_ROOT; };
+		AAF5E565211355A100536F7F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AAF5E567211355A100536F7F /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AAF5E568211355A100536F7F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		AAFBAAFC21948720009C4F65 /* example.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; path = example.entitlements; sourceTree = "<group>"; };
+		BF22716E27FF3216006D98A5 /* OTHFAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OTHFAppDelegate.h; sourceTree = "<group>"; };
+		BF22716F27FF3216006D98A5 /* OTHFViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OTHFViewController.m; sourceTree = "<group>"; };
+		BF22717027FF3216006D98A5 /* ApplicationProperties.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ApplicationProperties.pch; sourceTree = "<group>"; };
+		BF22717427FF3216006D98A5 /* AutomatID-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AutomatID-Prefix.pch"; sourceTree = "<group>"; };
+		BF22717527FF3216006D98A5 /* OTHFViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OTHFViewController.h; sourceTree = "<group>"; };
+		BFEBF90F27FF343500B6AE38 /* OTHFAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OTHFAppDelegate.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6003F587195388D20070C39A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
+				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
+				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
+				0F2293A67608FFA35F9C1D8B /* Pods_AutomatID_Example.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2321132F24B5C6B5001DFA62 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				2321133224B5C6F3001DFA62 /* when_multi_is_defined */,
+				2321133124B5C6DB001DFA62 /* processed */,
+			);
+			name = Settings;
+			sourceTree = "<group>";
+		};
+		2321133124B5C6DB001DFA62 /* processed */ = {
+			isa = PBXGroup;
+			children = (
+				AAE1ADBE2118869600971A51 /* Settings.bundle */,
+			);
+			name = processed;
+			sourceTree = "<group>";
+		};
+		2321133224B5C6F3001DFA62 /* when_multi_is_defined */ = {
+			isa = PBXGroup;
+			children = (
+				231F4B5625AC5EF400044B6C /* Settings.bundle */,
+			);
+			name = when_multi_is_defined;
+			sourceTree = "<group>";
+		};
+		6003F581195388D10070C39A = {
+			isa = PBXGroup;
+			children = (
+				23A358EB29254B6400D0E552 /* sci_demo_app_landing_animation.json */,
+				23B4040D29095EBC006F01BB /* sci_demo_app_feedback_settings.json */,
+				23B4040B290958F0006F01BB /* sci_demo_app_feedback_success.json */,
+				23B404092909532D006F01BB /* sci_demo_app_feedback_error.json */,
+				23D248602907C42B00B19CC2 /* Localizable.strings */,
+				23522C1F288FDDC900A9446A /* AutomatID_ExampleRelease.entitlements */,
+				23B7CB0B25DEBDEB00380DF0 /* ProjectConfigurationAutomatID_DEMO_IOS.h */,
+				231F4B5525AC5D6D00044B6C /* MockLaunchScreen.storyboard */,
+				2321132F24B5C6B5001DFA62 /* Settings */,
+				AAD26FAD21BFBF2B0056E3D8 /* Licenses */,
+				AAC54B0821198BFB00D93642 /* versions.xcconfig */,
+				AAFBAAFC21948720009C4F65 /* example.entitlements */,
+				AAF5E568211355A100536F7F /* Images.xcassets */,
+				AAF5E564211355A100536F7F /* Main.storyboard */,
+				AAF5E567211355A100536F7F /* main.m */,
+				AAC54B0A21198FEA00D93642 /* debug.xcconfig */,
+				AAC54B0B21198FEA00D93642 /* release.xcconfig */,
+				BF22716D27FF3216006D98A5 /* AutomatID */,
+				6003F58C195388D20070C39A /* Frameworks */,
+				6003F58B195388D20070C39A /* Products */,
+				DB1CF226944D3EC7024FC454 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		6003F58B195388D20070C39A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6003F58A195388D20070C39A /* AutomatID_Example.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6003F58C195388D20070C39A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6003F58D195388D20070C39A /* Foundation.framework */,
+				6003F58F195388D20070C39A /* CoreGraphics.framework */,
+				6003F591195388D20070C39A /* UIKit.framework */,
+				6003F5AF195388D20070C39A /* XCTest.framework */,
+				1007F3734F4E87E27AE36980 /* Pods_AutomatID_Example.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF22716D27FF3216006D98A5 /* AutomatID */ = {
+			isa = PBXGroup;
+			children = (
+				2372DF382886FC07009F213A /* Montserrat-Bold.ttf */,
+				2372DF392886FC07009F213A /* Montserrat-Medium.ttf */,
+				2372DF3A2886FC07009F213A /* Montserrat-Regular.ttf */,
+				BF22716E27FF3216006D98A5 /* OTHFAppDelegate.h */,
+				BFEBF90F27FF343500B6AE38 /* OTHFAppDelegate.m */,
+				BF22716F27FF3216006D98A5 /* OTHFViewController.m */,
+				BF22717027FF3216006D98A5 /* ApplicationProperties.pch */,
+				237E4C1928B7BFCE003A75A2 /* AutomatID-Info.plist */,
+				BF22717427FF3216006D98A5 /* AutomatID-Prefix.pch */,
+				BF22717527FF3216006D98A5 /* OTHFViewController.h */,
+				2349FEBD29016DA40003A687 /* OTHFSettingsViewController.h */,
+				2349FEBE29016DA40003A687 /* OTHFSettingsViewController.m */,
+				2349FEC029016E930003A687 /* OTHFResultViewController.h */,
+				2349FEC129016E930003A687 /* OTHFResultViewController.m */,
+				232D9D152902946800EECF83 /* OTHFTermsAndConditionsViewController.h */,
+				232D9D162902946900EECF83 /* OTHFTermsAndConditionsViewController.m */,
+				2361FE322923EBF500F7CA86 /* AutomatIDPressableButton.h */,
+				2361FE332923EBF500F7CA86 /* AutomatIDPressableButton.m */,
+				2361FE352923EC1900F7CA86 /* AutomatIDSubtitledButton.h */,
+				2361FE362923EC1900F7CA86 /* AutomatIDSubtitledButton.m */,
+				2361FE392923ED9500F7CA86 /* AutomatIDLocalizedLabel.swift */,
+				2361FE382923ED9400F7CA86 /* AutomatID_Example-Bridging-Header.h */,
+			);
+			path = AutomatID;
+			sourceTree = "<group>";
+		};
+		DB1CF226944D3EC7024FC454 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0A5C5D2D42308AC29492E9DF /* Pods-AutomatID_Example.debug.xcconfig */,
+				4CB0F87E34CA539CC43792E9 /* Pods-AutomatID_Example.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6003F589195388D20070C39A /* AutomatID_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "AutomatID_Example" */;
+			buildPhases = (
+				FD401CD76A9928304EECD20D /* [CP] Check Pods Manifest.lock */,
+				6003F586195388D20070C39A /* Sources */,
+				6003F587195388D20070C39A /* Frameworks */,
+				6003F588195388D20070C39A /* Resources */,
+				23B34C7D276A21DA00606DCA /* ShellScript */,
+				4CF464CA7C1696BC3AE39B68 /* [CP] Embed Pods Frameworks */,
+				0E8ABF662AF57DEE915681B4 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AutomatID_Example;
+			productName = "OTHFiOS-BNL";
+			productReference = 6003F58A195388D20070C39A /* AutomatID_Example.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6003F582195388D10070C39A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = OTHF;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = opentech.com;
+				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = 9R9LWY837V;
+						LastSwiftMigration = 1340;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 0;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 6003F585195388D10070C39A /* Build configuration list for PBXProject "AutomatID" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				Base,
+				it,
+				en,
+				de,
+			);
+			mainGroup = 6003F581195388D10070C39A;
+			productRefGroup = 6003F58B195388D20070C39A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6003F589195388D20070C39A /* AutomatID_Example */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6003F588195388D20070C39A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				231F4B5725AC613200044B6C /* MockLaunchScreen.storyboard in Resources */,
+				23B4040C290958F0006F01BB /* sci_demo_app_feedback_success.json in Resources */,
+				AA8F5F792243A8670053EC4D /* Settings.bundle in Resources */,
+				AAC54B0921198BFB00D93642 /* versions.xcconfig in Resources */,
+				2321580028870770000705A6 /* Montserrat-Bold.ttf in Resources */,
+				AAF5E574211355A100536F7F /* Images.xcassets in Resources */,
+				23D2485E2907C42B00B19CC2 /* Localizable.strings in Resources */,
+				23B4040E29095EBC006F01BB /* sci_demo_app_feedback_settings.json in Resources */,
+				AAD26FAE21BFBF2B0056E3D8 /* Licenses in Resources */,
+				23B4040A2909532D006F01BB /* sci_demo_app_feedback_error.json in Resources */,
+				2321580128870770000705A6 /* Montserrat-Medium.ttf in Resources */,
+				23A358EC29254B6400D0E552 /* sci_demo_app_landing_animation.json in Resources */,
+				2321580228870770000705A6 /* Montserrat-Regular.ttf in Resources */,
+				AAF5E571211355A100536F7F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0E8ABF662AF57DEE915681B4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AutomatID_Example/Pods-AutomatID_Example-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/MLKitFaceDetection/GoogleMVFaceDetectorResources.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMVFaceDetectorResources.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AutomatID_Example/Pods-AutomatID_Example-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		23B34C7D276A21DA00606DCA /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n# Type a script or drag a script file from your workspace to insert its path.\nEXPORT_PATH_FOR_ARTIFACT=../Releases/temp/buildproducts \nmkdir -p ${EXPORT_PATH_FOR_ARTIFACT}\nrm -Rf ${EXPORT_PATH_FOR_ARTIFACT}\ncp -f -RL ${BUILT_PRODUCTS_DIR} ${EXPORT_PATH_FOR_ARTIFACT} \n";
+		};
+		4CF464CA7C1696BC3AE39B68 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AutomatID_Example/Pods-AutomatID_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/DYCoding/DYCoding.framework",
+				"${BUILT_PRODUCTS_DIR}/GPUImage/GPUImage.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleDataTransport/GoogleDataTransport.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/PromisesObjC/FBLPromises.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/SAMKeychain/SAMKeychain.framework",
+				"${BUILT_PRODUCTS_DIR}/SMJJSONPath/SMJJSONPath.framework",
+				"${BUILT_PRODUCTS_DIR}/TBXML/TBXML.framework",
+				"${BUILT_PRODUCTS_DIR}/TesseractOCRSDKiOS/TesseractOCRSDKiOS.framework",
+				"${BUILT_PRODUCTS_DIR}/lottie-ios/Lottie.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/NFCPassportReader/NFCPassportReader.framework/NFCPassportReader",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/OTML/OTML.framework/OTML",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/OTMLCore/OTMLCore.framework/OTMLCore",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/OTMLMRZReaderAddon/OTMLMRZReaderAddon.framework/OTMLMRZReaderAddon",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/OTMLModels/OTMLModels.framework/OTMLModels",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/OTMLNfcDocumentReaderModule/OTMLNfcDocumentReaderModule.framework/OTMLNfcDocumentReaderModule",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/OpenSSL-Universal/OpenSSL.framework/OpenSSL",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DYCoding.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GPUImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleDataTransport.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBLPromises.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SAMKeychain.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SMJJSONPath.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TBXML.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TesseractOCRSDKiOS.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Lottie.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NFCPassportReader.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/OTML.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/OTMLCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/OTMLMRZReaderAddon.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/OTMLModels.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/OTMLNfcDocumentReaderModule.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/OpenSSL.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AutomatID_Example/Pods-AutomatID_Example-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD401CD76A9928304EECD20D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AutomatID_Example-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6003F586195388D20070C39A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2361FE3A2923ED9500F7CA86 /* AutomatIDLocalizedLabel.swift in Sources */,
+				2349FEC229016E930003A687 /* OTHFResultViewController.m in Sources */,
+				2349FEBF29016DA40003A687 /* OTHFSettingsViewController.m in Sources */,
+				2361FE342923EBF500F7CA86 /* AutomatIDPressableButton.m in Sources */,
+				BFEBF91127FF358400B6AE38 /* OTHFAppDelegate.m in Sources */,
+				2361FE372923EC1900F7CA86 /* AutomatIDSubtitledButton.m in Sources */,
+				BFEBF91027FF357F00B6AE38 /* OTHFViewController.m in Sources */,
+				AAF5E573211355A100536F7F /* main.m in Sources */,
+				232D9D172902946900EECF83 /* OTHFTermsAndConditionsViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		237E4C1928B7BFCE003A75A2 /* AutomatID-Info.plist */ = {
+			isa = PBXVariantGroup;
+			children = (
+				237E4C1828B7BFCE003A75A2 /* AutomatID-Info.plist */,
+				237E4C1A28B7BFD9003A75A2 /* en */,
+				237E4C1B28B7BFDB003A75A2 /* it */,
+				23A358E929253F9200D0E552 /* de */,
+			);
+			name = "AutomatID-Info.plist";
+			sourceTree = "<group>";
+		};
+		23D248602907C42B00B19CC2 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				23D2485F2907C42B00B19CC2 /* en */,
+				23D248612907C42D00B19CC2 /* it */,
+				23A358EA29253F9700D0E552 /* de */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		AAF5E564211355A100536F7F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AAF5E565211355A100536F7F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6003F5BD195388D20070C39A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6003F5BE195388D20070C39A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6003F5C0195388D20070C39A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AAC54B0A21198FEA00D93642 /* debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = NO;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = example.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9R9LWY837V;
+				ENABLE_BITCODE = NO;
+				EXCLUDED_ARCHS = "$(inherited)";
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "AutomatID/AutomatID-Prefix.pch";
+				INFOPLIST_FILE = "AutomatID/Base.lproj/AutomatID-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MODULE_NAME = ExampleApp;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.opentech.automatid.demoapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "AutomatID/AutomatID_Example-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6003F5C1195388D20070C39A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AAC54B0B21198FEA00D93642 /* release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = NO;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = AutomatID_ExampleRelease.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9R9LWY837V;
+				ENABLE_BITCODE = NO;
+				EXCLUDED_ARCHS = "$(inherited)";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "$(inherited)";
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "AutomatID/AutomatID-Prefix.pch";
+				INFOPLIST_FILE = "AutomatID/Base.lproj/AutomatID-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MODULE_NAME = ExampleApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.opentech.automatid.demoapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "AutomatID/AutomatID_Example-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6003F585195388D10070C39A /* Build configuration list for PBXProject "AutomatID" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6003F5BD195388D20070C39A /* Debug */,
+				6003F5BE195388D20070C39A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "AutomatID_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6003F5C0195388D20070C39A /* Debug */,
+				6003F5C1195388D20070C39A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6003F582195388D10070C39A /* Project object */;
+}

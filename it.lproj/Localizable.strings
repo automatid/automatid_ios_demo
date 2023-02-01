@@ -1,0 +1,44 @@
+/* 
+  Localizable.strings
+  AutomatID
+
+  Created by Silvio D'Angelo on 24/10/22.
+  Copyright © 2022 opentech.com. All rights reserved.
+*/
+"DOCUMENT_TYPE_PASSPORTS" = "Passports (TT)";
+"DOCUMENT_TYPE_IDCARDS" = "Identity cards (TT)";
+"ERROR_SETTING_RETRY" = "Retry on errors(TT)";
+"ERROR_SETTING_DO_NOT_RETRY" = "Don't retry on errors(TT)";
+
+"ACCEPT_TT" = "Accept!(TT)";
+"DONE_TT" = "DONE!(TT)";
+"feedback_btn_close" = "Fine";
+"feedback_share_jwt" = "Condividi il Token JWT";
+"feedback_body_success" = "La tua identità è stata verificata con successo.\nAbbiamo generato un Token JWT contenente il risultato del processo di identificazione.";
+"feedback_title_error" = "Errore";
+"feedback_title_success" = "Verifica dell'identità completata con successo";
+"welcome_title" = "Benvenuto in AutomatID™";
+"welcome_body1" = "Tecnologia smart per identificazioni smart";
+"welcome_body2" = "Leggi col tuo telefono il chip NFC dei tuoi documenti d'identità o delle tue carte di pagamento per identificarti in modo rapido e sicuro";
+"welcome_btn_start" = "Iniziamo!";
+"welcome_footer" = "<html>🔓 La tua privacy e la sicurezza dei tuoi dati sono la nostra massima priorità. È per questo che ci teniamo a dirti che i dati letti con AutomatID™ sono sempre <b>crittografati</b> e <b>non memorizzati da nessuna parte.</b></html>";
+"tc_title" = "Privacy policy di AutomatID™";
+"tc_btn_accept" = "Accetta e continua"; 
+
+"error_management_title" = "Gestione degli errori";
+"error_management_body1" = "Scegli cosa deve essere fatto in caso di errori durante il processo di identificazione.";
+"error_management_switch" = "Riprova in caso di errore";
+"error_management_body2_retry" = "Nel caso in cui dovesse verificarsi un errore (ad esempio: problemi durante la lettura di un documento o durante i controlli di liveness) il flusso di riconoscimento AutomatID™ mostrerà un messaggio di errore e chiederà di riprovare.";
+"error_management_body2_abort" = "Nel caso in cui dovesse verificarsi un errore (ad esempio: problemi durante la lettura di un documento o durante i controlli di liveness) il flusso di riconoscimento AutomatID™ mostrerà un messaggio di errore everrà chiuso.";
+"error_management_btn_done" = "Fatto";
+
+"id_methods_title" = "Metodi di identificazione";
+"id_methods_body1" = "Quali metodi di identificazione vuoi abilitare? (Selezionane almeno uno).";
+"id_methods_passport" = "Passaporto elettronico";
+"id_methods_identity_card" = "Carta d'identità elettronica (formato
+europeo)";
+"id_methods_identity_card_short" = "Carte d'identità";
+"id_methods_passport_short" = "Passaporti";
+"error_management_retry_short" = "Non riprovare in caso di errori";
+"error_management_abort_short" = "Riprovare in caso di errori";
+"id_methods_btn_done" = "Fine";

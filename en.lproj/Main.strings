@@ -1,0 +1,38 @@
+
+/* Class = "UILabel"; text = "Enable Identity card"; ObjectID = "1pS-oG-zhc"; */
+"1pS-oG-zhc.text" = "Enable Identity card";
+
+/* Class = "UILabel"; text = "Enable Passport"; ObjectID = "98I-j1-jI2"; */
+"98I-j1-jI2.text" = "Enable Passport";
+
+/* Class = "UILabel"; text = "Retry on errors"; ObjectID = "RZS-NU-Imj"; */
+"RZS-NU-Imj.text" = "Retry on errors";
+
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "cJg-k8-RHH"; */
+"cJg-k8-RHH.normalTitle" = "Start!";
+
+/* Class = "UILabel"; text = "By tapping the button below you can test our plug-in and see the Strong Customer Identification flow via NFC with an e-document.\n\nVisit Opentech’s website for informations."; ObjectID = "eMU-VU-BQg"; */
+"eMU-VU-BQg.text" = "Smart Technology
+for Smart Identifications";
+"d8i-YR-RgR.text" = "Read the NFC chip of ID Documents and payment cards to securely identify yourself without wasting your time.";
+"iey-mZ-HT5.text" = "Welcome to AutomatID™";
+"oqE-LT-jjc.text" = "🔓Your privacy and the securety of your data is our top priority. In line with our mission, the data read are always encrypted and not stored anywhere.";
+"VML-5j-mGS.normalTitle" = "Done";
+"ytZ-y6-GaQ.text" = "Identity verification successfully completed";
+"u07-h1-HX3.text" = "Your identity has been successfully verified.
+We generated a JWT token containing
+the result of this identification.";
+"3j5-BV-xpJ.normalTitle" = "Share JWT Token";
+"mrJ-BN-8p1.text" = "AutomatID™
+Terms and Conditions";
+"r1A-nq-V94.text" = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.";
+
+"esY-lF-FBX" = "Identification Methods";
+"aKM-SM-hwp.text" = "What identification methods do you want to try? (Turn on at least one) .";
+"cWb-R5-oAc.text" = "⚠️
+To launch the plug-in, you have to turn on
+at least one identification method ";
+
+"U40-UF-C2Q.text" = "Electronic ID Card (European Format)";
+"swL-Wu-lLp.text" = "Electronic Passport";

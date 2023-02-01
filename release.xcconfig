@@ -1,0 +1,2 @@
+#include "Pods/Target Support Files/Pods-AutomatID_Example/Pods-AutomatID_Example.release.xcconfig"
+#include "versions.xcconfig"
