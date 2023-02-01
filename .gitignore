@@ -1,0 +1,37 @@
+#############
+# IDE BASED
+#############
+.DS_Store
+.svn
+.idea
+*~.nib/
+*.swp
+*.pbxuser
+*.perspective
+*.perspectivev3
+xcuserdata
+xcuserstate
+/processed
+
+###############
+# GRADLE  BASED
+###############
+gradlew
+gradlew.bat
+.gradle/
+gradle/
+build/
+
+
+###############
+# POD BASED
+###############
+Pods/
+
+###############
+# OTML BASED
+###############
+*/MAPS/*
+*/manifest_data/*
+*.pyc
+*.log
