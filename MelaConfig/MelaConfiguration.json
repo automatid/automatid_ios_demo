@@ -1,0 +1,21 @@
+{
+  "properties" : [
+    {
+      "label" : "Multi ?",
+      "hint" : "should use Multiendpoint settings.bundle ?",
+      "name" : "MULTIPUNTAMENTO",
+      "type" : "define"
+    },
+    {
+      "label" : "->SCI License file<-",
+      "hint" : "SCI License to be used",
+      "name" : "OMVLICENSE",
+      "type" : "define_value",
+      "values" : {
+        "docker" : "@\"sci-demoapp-dev-ios\"",
+        "multi" : "@\"sci-demoapp-multi-ios\"",
+      	"prod" : "@\"sci-demoapp-prod-ios\""
+      }
+    }
+  ]
+}
