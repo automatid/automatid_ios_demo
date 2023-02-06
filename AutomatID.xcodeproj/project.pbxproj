@@ -69,7 +69,6 @@
 		23B7CB0B25DEBDEB00380DF0 /* ProjectConfigurationAutomatID_DEMO_IOS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProjectConfigurationAutomatID_DEMO_IOS.h; sourceTree = "<group>"; };
 		23D2485F2907C42B00B19CC2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		23D248612907C42D00B19CC2 /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/Localizable.strings; sourceTree = "<group>"; };
-		23D4D938275A5FBC00FE20AC /* updateinternalversion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = updateinternalversion.swift; sourceTree = "<group>"; };
 		4CB0F87E34CA539CC43792E9 /* Pods-AutomatID_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AutomatID_Example.release.xcconfig"; path = "Target Support Files/Pods-AutomatID_Example/Pods-AutomatID_Example.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* AutomatID_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutomatID_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -142,7 +141,6 @@
 				23B404092909532D006F01BB /* sci_demo_app_feedback_error.json */,
 				23D248602907C42B00B19CC2 /* Localizable.strings */,
 				23522C1F288FDDC900A9446A /* AutomatID_ExampleRelease.entitlements */,
-				23D4D938275A5FBC00FE20AC /* updateinternalversion.swift */,
 				23B7CB0B25DEBDEB00380DF0 /* ProjectConfigurationAutomatID_DEMO_IOS.h */,
 				231F4B5525AC5D6D00044B6C /* MockLaunchScreen.storyboard */,
 				2321132F24B5C6B5001DFA62 /* Settings */,
