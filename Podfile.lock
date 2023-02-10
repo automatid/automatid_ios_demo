@@ -1,5 +1,5 @@
 PODS:
-  - AutomatID (1.8.101):
+  - AutomatID (1.8.102):
     - NFCPassportReader
     - OTML
     - OTMLCore
@@ -7,7 +7,7 @@ PODS:
     - OTMLModels
     - OTMLMRZReaderAddon
     - OTMLNfcDocumentReaderModule
-  - AutomatIDAssets (1.8.101)
+  - AutomatIDAssets (1.8.102)
   - DYCoding (1.0)
   - GoogleDataTransport (9.2.1):
     - GoogleUtilities/Environment (~> 7.7)
@@ -66,32 +66,32 @@ PODS:
     - nanopb/encode (= 2.30909.0)
   - nanopb/decode (2.30909.0)
   - nanopb/encode (2.30909.0)
-  - NFCPassportReader (1.8.101):
+  - NFCPassportReader (1.8.102):
     - OpenSSL-Universal (= 1.1.180)
   - OpenSSL-Universal (1.1.180)
-  - OTML (1.8.101):
+  - OTML (1.8.102):
     - DYCoding
     - lottie-ios (= 2.5.3)
     - OTMLCore
     - OTMLModels
     - SMJJSONPath
     - TBXML
-  - OTMLCore (1.8.101):
+  - OTMLCore (1.8.102):
     - SAMKeychain
-  - OTMLFaceRecognitionAddon (1.8.101):
+  - OTMLFaceRecognitionAddon (1.8.102):
     - GoogleMLKit/FaceDetection
     - OTML
     - OTMLCore
     - OTMLModels
-  - OTMLModels (1.8.101):
+  - OTMLModels (1.8.102):
     - TBXML
-  - OTMLMRZReaderAddon (1.8.101):
+  - OTMLMRZReaderAddon (1.8.102):
     - GPUImage
     - OTML
     - OTMLCore
     - OTMLModels
     - TesseractOCRSDKiOS
-  - OTMLNfcDocumentReaderModule (1.8.101):
+  - OTMLNfcDocumentReaderModule (1.8.102):
     - NFCPassportReader
     - OTML
     - OTMLCore
@@ -142,8 +142,8 @@ SPEC REPOS:
     - TesseractOCRSDKiOS
 
 SPEC CHECKSUMS:
-  AutomatID: f7f786efb35c67a595c9e78881125c16719d4aec
-  AutomatIDAssets: eb6b4160cac62555e86c88174020e3e7cc8d9774
+  AutomatID: 30c3c9a3b00b9ecf75210ce86746e9048ef83e93
+  AutomatIDAssets: bb4ed3cd557a99e9f645cc08a4f9b0c03c40aaf1
   DYCoding: d598c00d5900fe069faae3f4002bbf1479f699a1
   GoogleDataTransport: ea169759df570f4e37bdee1623ec32a7e64e67c4
   GoogleMLKit: 0017a6a8372e1a182139b9def4d89be5d87ca5a7
@@ -158,14 +158,14 @@ SPEC CHECKSUMS:
   MLKitFaceDetection: 9f29d8d0bb38911281407e24e74d2e5da812ba8d
   MLKitVision: 96c96571190b7f63eddf4a12068ce8a8689e0d2c
   nanopb: b552cce312b6c8484180ef47159bc0f65a1f0431
-  NFCPassportReader: a4e088beaf67cb2a8cf1fa4820d18ec9bfb2a1ce
+  NFCPassportReader: 8cc823ce8b71d740afb83af24feaa7d45a7f3a01
   OpenSSL-Universal: 1aa4f6a6ee7256b83db99ec1ccdaa80d10f9af9b
-  OTML: 1227a98861a6ae79e9b3e3fe0119e3944bd0a4d0
-  OTMLCore: aff6c98bb79b33eefb6249a23ca4389e2afe5e7a
-  OTMLFaceRecognitionAddon: d66c1e9c4dc6a690e072bdad0734735fd71eeb3b
-  OTMLModels: 1d89bb4b8c3145da3ed1cecc3d2d8659c4b3a155
-  OTMLMRZReaderAddon: 15c6cfe301713ac35bc6525a2ab3f15f02354ae6
-  OTMLNfcDocumentReaderModule: 7b1299acdf9fea8e12a21785da02b822bc0850ae
+  OTML: 01c4e83db42fb2a59b9b278514c46beb02ded4b8
+  OTMLCore: 02d366879a820a35f2cd0fd8850a0160a3d28c37
+  OTMLFaceRecognitionAddon: e0073d34602e29941b67a041d4a089c40adbc565
+  OTMLModels: c2912351ad66fbd82ca5882a4271048d84e14a23
+  OTMLMRZReaderAddon: 6517273ad94fbda655306f56bce7380615c2b421
+  OTMLNfcDocumentReaderModule: 27e67ad689ca2a50cde0a07b20f41be7f9773a54
   PromisesObjC: ab77feca74fa2823e7af4249b8326368e61014cb
   Protobuf: 120350fc38646e2dedc26f49ecba778184ea1de2
   SAMKeychain: 483e1c9f32984d50ca961e26818a534283b4cd5c
