@@ -317,10 +317,14 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-AutomatID_Example/Pods-AutomatID_Example-resources.sh",
+				"${PODS_ROOT}/AutomatIDAssets/Assets/manifest_data",
+				"${PODS_ROOT}/AutomatIDAssets/Assets/MAPS",
 				"${PODS_CONFIGURATION_BUILD_DIR}/MLKitFaceDetection/GoogleMVFaceDetectorResources.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/manifest_data",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MAPS",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMVFaceDetectorResources.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
