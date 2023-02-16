@@ -317,8 +317,8 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-AutomatID_Example/Pods-AutomatID_Example-resources.sh",
-				"${PODS_ROOT}/AutomatIDAssets/Assets/manifest_data",
-				"${PODS_ROOT}/AutomatIDAssets/Assets/MAPS",
+				"${PODS_ROOT}/AutomatID/Assets/manifest_data",
+				"${PODS_ROOT}/AutomatID/Assets/MAPS",
 				"${PODS_CONFIGURATION_BUILD_DIR}/MLKitFaceDetection/GoogleMVFaceDetectorResources.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
@@ -370,7 +370,6 @@
 				"${BUILT_PRODUCTS_DIR}/TesseractOCRSDKiOS/TesseractOCRSDKiOS.framework",
 				"${BUILT_PRODUCTS_DIR}/lottie-ios/Lottie.framework",
 				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
-				"${PODS_XCFRAMEWORKS_BUILD_DIR}/AutomatIDAssets/AutomatIDAssets.framework/AutomatIDAssets",
 				"${PODS_XCFRAMEWORKS_BUILD_DIR}/NFCPassportReader/NFCPassportReader.framework/NFCPassportReader",
 				"${PODS_XCFRAMEWORKS_BUILD_DIR}/OTML/OTML.framework/OTML",
 				"${PODS_XCFRAMEWORKS_BUILD_DIR}/OTMLCore/OTMLCore.framework/OTMLCore",
@@ -395,7 +394,6 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TesseractOCRSDKiOS.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Lottie.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AutomatIDAssets.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NFCPassportReader.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/OTML.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/OTMLCore.framework",

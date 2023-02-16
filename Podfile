@@ -8,7 +8,6 @@ platform :ios, '11.0'
 
 target 'AutomatID_Example' do
      pod 'AutomatID'
-     pod 'AutomatIDAssets'
 end
 
 post_install do |installer|
