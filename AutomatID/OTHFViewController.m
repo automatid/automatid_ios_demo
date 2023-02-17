@@ -95,9 +95,9 @@
 
     BOOL useIdentityCard = ![defaults boolForKey:@"doNotAcceptIdentityCard"];
     BOOL usePassport = ![defaults boolForKey:@"doNotAcceptPassport"];
-    BOOL shouldAbortOnRecoverableError = [defaults boolForKey:@"doAbortOnErrors"];
+    BOOL shouldRetryOnError = [defaults boolForKey:@"retryOnError"];
 
-    NSMutableArray<AutomatIDDocumentType*>* docTypes = @[AutomatIDDocumentType.identityCard, AutomatIDDocumentType.passport].mutableCopy;
+    NSMutableArray<AutomatIDDocumentType*>* docTypes = @[].mutableCopy;
 
     if (useIdentityCard) {
         [docTypes addObject:AutomatIDDocumentType.identityCard];
@@ -110,7 +110,7 @@
     AutomatIDCallback* callback = [[AutomatIDCallback alloc] init];
     // optional, defaults to RETRY
     callback.decideRecoverableErrorHandling = ^RecoverableErrorHandlingDecision(AutomatIDResultError * _Nonnull error) {
-        if (shouldAbortOnRecoverableError) {
+        if (shouldRetryOnError) {
             return ErrorHandlingDecision_RETRY_SCI;
         } else {
             [self handleError:error];

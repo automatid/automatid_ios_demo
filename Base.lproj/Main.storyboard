@@ -47,7 +47,7 @@
                                                 </userDefinedRuntimeAttributes>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="plugin description" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d8i-YR-RgR" userLabel="Description" customClass="AutomatIDLocalizedLabel" customModule="AutomatID_Example" customModuleProvider="target">
-                                                <rect key="frame" x="101.5" y="239.5" width="136.5" height="20.5"/>
+                                                <rect key="frame" x="101" y="239" width="136.5" height="20.5"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
@@ -440,8 +440,6 @@
                                             <userDefinedRuntimeAttribute type="string" keyPath="titlePlaceholder" value="error_management_btn_done"/>
                                         </userDefinedRuntimeAttributes>
                                         <connections>
-                                            <action selector="dismissResultViewController" destination="KUk-1g-LVB" eventType="touchUpInside" id="u7G-j3-73Q"/>
-                                            <action selector="documentSettingsDonePressed" destination="qlq-hP-Gl7" eventType="touchUpInside" id="Axz-ja-5Lx"/>
                                             <action selector="errorSettingsDonePressed" destination="qlq-hP-Gl7" eventType="touchUpInside" id="KHs-gd-BXe"/>
                                         </connections>
                                     </button>
@@ -732,26 +730,55 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="OpentechLogo" translatesAutoresizingMaskIntoConstraints="NO" id="i4Z-UQ-sUo" userLabel="Feedback Animation" customClass="LOTAnimationView">
-                                <rect key="frame" x="87.5" y="100" width="200" height="78"/>
-                            </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ytZ-y6-GaQ" customClass="AutomatIDLocalizedLabel" customModule="AutomatID_Example" customModuleProvider="target">
-                                <rect key="frame" x="20" y="221" width="335" height="20.5"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3j5-BV-xpJ" customClass="AutomatIDPressableButton">
-                                <rect key="frame" x="20" y="415.5" width="335" height="34.5"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="string" keyPath="titlePlaceholder" value="feedback_share_jwt"/>
-                                </userDefinedRuntimeAttributes>
-                                <connections>
-                                    <action selector="shareJWT" destination="KUk-1g-LVB" eventType="touchUpInside" id="kcw-kK-Bhs"/>
-                                </connections>
-                            </button>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ogp-sA-5Hw">
+                                <rect key="frame" x="20" y="0.0" width="335" height="579"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="OpentechLogo" translatesAutoresizingMaskIntoConstraints="NO" id="i4Z-UQ-sUo" userLabel="Feedback Animation" customClass="LOTAnimationView">
+                                        <rect key="frame" x="0.0" y="50" width="335" height="78"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ytZ-y6-GaQ" customClass="AutomatIDLocalizedLabel" customModule="AutomatID_Example" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="143" width="335" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3j5-BV-xpJ" customClass="AutomatIDPressableButton">
+                                        <rect key="frame" x="0.0" y="193.5" width="335" height="34.5"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="titlePlaceholder" value="feedback_share_jwt"/>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="shareJWT" destination="KUk-1g-LVB" eventType="touchUpInside" id="kcw-kK-Bhs"/>
+                                        </connections>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="u07-h1-HX3" customClass="AutomatIDLocalizedLabel" customModule="AutomatID_Example" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="278" width="335" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="i4Z-UQ-sUo" firstAttribute="top" secondItem="ll7-14-srb" secondAttribute="top" constant="50" id="0FA-ZS-AM1"/>
+                                    <constraint firstItem="u07-h1-HX3" firstAttribute="top" secondItem="3j5-BV-xpJ" secondAttribute="bottom" constant="50" id="41z-ZP-Hdd"/>
+                                    <constraint firstAttribute="trailing" secondItem="u07-h1-HX3" secondAttribute="trailing" id="8ct-EB-FOe"/>
+                                    <constraint firstItem="i4Z-UQ-sUo" firstAttribute="leading" secondItem="sic-ib-fHH" secondAttribute="leading" id="8nz-oM-4Cz"/>
+                                    <constraint firstItem="ytZ-y6-GaQ" firstAttribute="top" secondItem="i4Z-UQ-sUo" secondAttribute="bottom" constant="15" id="Gi2-BS-bzr"/>
+                                    <constraint firstItem="sic-ib-fHH" firstAttribute="trailing" secondItem="i4Z-UQ-sUo" secondAttribute="trailing" id="Gz5-Wy-zwC"/>
+                                    <constraint firstItem="3j5-BV-xpJ" firstAttribute="top" secondItem="ytZ-y6-GaQ" secondAttribute="bottom" constant="30" id="HIt-UK-9vG"/>
+                                    <constraint firstItem="u07-h1-HX3" firstAttribute="bottom" secondItem="ll7-14-srb" secondAttribute="bottom" id="HoO-wr-PQs"/>
+                                    <constraint firstItem="sic-ib-fHH" firstAttribute="trailing" secondItem="ytZ-y6-GaQ" secondAttribute="trailing" id="T04-gE-Ola"/>
+                                    <constraint firstItem="u07-h1-HX3" firstAttribute="leading" secondItem="sic-ib-fHH" secondAttribute="leading" id="UrT-W4-FQ3"/>
+                                    <constraint firstItem="3j5-BV-xpJ" firstAttribute="leading" secondItem="sic-ib-fHH" secondAttribute="leading" id="Xgs-IJ-e2Y"/>
+                                    <constraint firstItem="sic-ib-fHH" firstAttribute="trailing" secondItem="3j5-BV-xpJ" secondAttribute="trailing" id="Ysa-QZ-Wfr"/>
+                                    <constraint firstItem="u07-h1-HX3" firstAttribute="trailing" secondItem="i4Z-UQ-sUo" secondAttribute="trailing" id="fPV-cW-Xpj"/>
+                                    <constraint firstItem="ytZ-y6-GaQ" firstAttribute="leading" secondItem="sic-ib-fHH" secondAttribute="leading" id="tCL-SO-cit"/>
+                                </constraints>
+                                <viewLayoutGuide key="contentLayoutGuide" id="ll7-14-srb"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="sic-ib-fHH"/>
+                            </scrollView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VML-5j-mGS" userLabel="doneButton" customClass="AutomatIDPressableButton">
                                 <rect key="frame" x="16" y="587" width="343" height="60"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -773,29 +800,16 @@
                                     <action selector="dismissResultViewController" destination="KUk-1g-LVB" eventType="touchUpInside" id="QhF-M2-fHy"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="u07-h1-HX3" customClass="AutomatIDLocalizedLabel" customModule="AutomatID_Example" customModuleProvider="target">
-                                <rect key="frame" x="20" y="321.5" width="335" height="20.5"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.1803921568627451" green="0.22745098039215686" blue="0.28627450980392155" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="VML-5j-mGS" firstAttribute="leading" secondItem="R5d-d1-IZJ" secondAttribute="leading" constant="16" id="06S-pt-e1F"/>
-                            <constraint firstItem="VML-5j-mGS" firstAttribute="top" secondItem="3j5-BV-xpJ" secondAttribute="bottom" constant="137" id="ERG-Dj-bR0"/>
-                            <constraint firstAttribute="trailing" secondItem="3j5-BV-xpJ" secondAttribute="trailing" constant="20" symbolic="YES" id="NTo-Na-uaa"/>
-                            <constraint firstAttribute="trailing" secondItem="ytZ-y6-GaQ" secondAttribute="trailing" constant="20" symbolic="YES" id="Pg6-o2-b1h"/>
-                            <constraint firstItem="ytZ-y6-GaQ" firstAttribute="leading" secondItem="R5d-d1-IZJ" secondAttribute="leading" constant="20" symbolic="YES" id="Puc-o8-xDO"/>
-                            <constraint firstItem="ytZ-y6-GaQ" firstAttribute="top" secondItem="i4Z-UQ-sUo" secondAttribute="bottom" constant="43" id="S5B-wZ-Ixp"/>
-                            <constraint firstItem="i4Z-UQ-sUo" firstAttribute="top" secondItem="XVa-OF-fUc" secondAttribute="bottom" constant="100" id="TGQ-ad-1ka"/>
-                            <constraint firstItem="3j5-BV-xpJ" firstAttribute="leading" secondItem="R5d-d1-IZJ" secondAttribute="leading" constant="20" symbolic="YES" id="Yn3-Gw-9pK"/>
-                            <constraint firstItem="i4Z-UQ-sUo" firstAttribute="centerX" secondItem="R5d-d1-IZJ" secondAttribute="centerX" id="fC5-WW-GCl"/>
+                            <constraint firstItem="ogp-sA-5Hw" firstAttribute="leading" secondItem="R5d-d1-IZJ" secondAttribute="leading" constant="20" symbolic="YES" id="4Ty-tr-rcf"/>
+                            <constraint firstItem="ogp-sA-5Hw" firstAttribute="top" secondItem="XVa-OF-fUc" secondAttribute="bottom" id="GcZ-dY-9gR"/>
+                            <constraint firstAttribute="trailing" secondItem="ogp-sA-5Hw" secondAttribute="trailing" constant="20" symbolic="YES" id="Gpo-S8-4qE"/>
+                            <constraint firstItem="VML-5j-mGS" firstAttribute="top" secondItem="ogp-sA-5Hw" secondAttribute="bottom" constant="8" symbolic="YES" id="Q3u-JC-ozl"/>
                             <constraint firstAttribute="trailing" secondItem="VML-5j-mGS" secondAttribute="trailing" constant="16" id="ioH-tP-GPz"/>
-                            <constraint firstItem="u07-h1-HX3" firstAttribute="leading" secondItem="R5d-d1-IZJ" secondAttribute="leading" constant="20" symbolic="YES" id="mMh-6K-NFQ"/>
-                            <constraint firstItem="u07-h1-HX3" firstAttribute="top" secondItem="ytZ-y6-GaQ" secondAttribute="bottom" constant="80" id="qwO-gM-8Dd"/>
                             <constraint firstItem="C0S-Hk-cKG" firstAttribute="top" secondItem="VML-5j-mGS" secondAttribute="bottom" constant="20" id="vrE-cA-PoV"/>
-                            <constraint firstAttribute="trailing" secondItem="u07-h1-HX3" secondAttribute="trailing" constant="20" symbolic="YES" id="zbt-Lu-0J6"/>
                         </constraints>
                     </view>
                     <connections>
@@ -809,7 +823,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uZV-wM-ptD" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-932" y="-350"/>
+            <point key="canvasLocation" x="-932" y="-350.37481259370315"/>
         </scene>
         <!--Terms And Conditions View Controller-->
         <scene sceneID="p06-mu-Lzj">
@@ -876,6 +890,7 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="buttonHeightConstraint" destination="E23-Nl-2MZ" id="k3m-ds-5GI"/>
                         <outlet property="doneButton" destination="x4f-1A-Uwx" id="yrC-p2-vb3"/>
                         <outlet property="extendedTextLbel" destination="knx-ur-qTQ" id="uRf-qZ-brf"/>
                     </connections>

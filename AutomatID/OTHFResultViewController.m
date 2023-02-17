@@ -60,9 +60,9 @@
 
     NSString* feedbackTitleText = nil;
     if (result.technicalDescription.length > 0) {
-        feedbackTitleText = [NSString stringWithFormat:@"%@ - %@", result.domain, result.technicalDescription];
+        feedbackTitleText = [NSString stringWithFormat:@"Error code: %@\nError domain: %@\nTechincalDescription: %@", @(result.code) , result.domain, result.technicalDescription];
     } else {
-        feedbackTitleText = [NSString stringWithFormat:@"%@", result.domain];
+        feedbackTitleText = [NSString stringWithFormat:@"Error code: %@\nError domain: %@", @(result.code) , result.domain];
     }
     self.titleText = NSLocalizedString(@"feedback_title_error", @"");
     self.feedbackBody = feedbackTitleText;

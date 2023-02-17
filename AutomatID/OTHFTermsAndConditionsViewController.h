@@ -17,6 +17,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property (nonatomic, copy, nullable) void (^onTermsAndConditionAccepted)(void);
 
+@property (weak, nonatomic) IBOutlet NSLayoutConstraint *buttonHeightConstraint;
 @property (weak, nonatomic) IBOutlet UILabel *titleLabel;
 @property (weak, nonatomic) IBOutlet WKWebView *extendedTextLbel;
 @property (weak, nonatomic) IBOutlet UIButton *doneButton;

@@ -27,7 +27,9 @@
     self.doneButton.titleLabel.font = [UIFont fontWithName:@"Montserrat-Bold" size:17];
     self.doneButton.titleLabel.text = NSLocalizedString(@"tc_btn_accept", @"");
 
-    self.doneButton.hidden = (self.onTermsAndConditionAccepted == NULL);
+    BOOL termsAndConditionsNotAccepted = (self.onTermsAndConditionAccepted == NULL);
+    self.doneButton.hidden = termsAndConditionsNotAccepted;
+    self.buttonHeightConstraint.constant = termsAndConditionsNotAccepted ? 0 : 60;
 }
 
 -(IBAction) closeTermsAndConditions

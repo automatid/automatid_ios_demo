@@ -18,6 +18,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+
     self.usePassport.on = ![defaults boolForKey:@"doNotAcceptPassport"];
     self.useIdentityCard.on = ![defaults boolForKey:@"doNotAcceptIdentityCard"];
     self.shouldRetry.on = [defaults boolForKey:@"retryOnError"];
