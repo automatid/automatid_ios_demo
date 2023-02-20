@@ -4,6 +4,6 @@
 #define ProjectConfigurationAutomatID_DEMO_IOS_h
 
 	#undef MULTIPUNTAMENTO
-	#define OMVLICENSE @"sci-demoapp-prod-ios"
+	#define OMVLICENSE @"sci-demoapp-multi-ios"
 
 #endif /* ProjectConfigurationAutomatID_DEMO_IOS_h*/
