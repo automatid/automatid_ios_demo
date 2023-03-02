@@ -20,7 +20,6 @@
 
 @property (weak, nonatomic) IBOutlet UILabel *dataSecurityLabel;
 
-//@property (weak, nonatomic) IBOutlet LOTAnimationView *animationView;
 
 -(IBAction)launchPressed:(id)sender;
 

@@ -47,7 +47,7 @@
                                                 </userDefinedRuntimeAttributes>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="plugin description" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d8i-YR-RgR" userLabel="Description" customClass="AutomatIDLocalizedLabel" customModule="AutomatID_Example" customModuleProvider="target">
-                                                <rect key="frame" x="101" y="239" width="136.5" height="20.5"/>
+                                                <rect key="frame" x="101.5" y="239.5" width="136.5" height="20.5"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
@@ -742,8 +742,14 @@
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="u07-h1-HX3" customClass="AutomatIDLocalizedLabel" customModule="AutomatID_Example" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="188.5" width="335" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3j5-BV-xpJ" customClass="AutomatIDPressableButton">
-                                        <rect key="frame" x="0.0" y="193.5" width="335" height="34.5"/>
+                                        <rect key="frame" x="0.0" y="224" width="335" height="34.5"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title="Button"/>
                                         <userDefinedRuntimeAttributes>
@@ -753,21 +759,15 @@
                                             <action selector="shareJWT" destination="KUk-1g-LVB" eventType="touchUpInside" id="kcw-kK-Bhs"/>
                                         </connections>
                                     </button>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="u07-h1-HX3" customClass="AutomatIDLocalizedLabel" customModule="AutomatID_Example" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="278" width="335" height="20.5"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
                                 </subviews>
                                 <constraints>
                                     <constraint firstItem="i4Z-UQ-sUo" firstAttribute="top" secondItem="ll7-14-srb" secondAttribute="top" constant="50" id="0FA-ZS-AM1"/>
-                                    <constraint firstItem="u07-h1-HX3" firstAttribute="top" secondItem="3j5-BV-xpJ" secondAttribute="bottom" constant="50" id="41z-ZP-Hdd"/>
+                                    <constraint firstItem="u07-h1-HX3" firstAttribute="bottom" secondItem="3j5-BV-xpJ" secondAttribute="top" constant="-15" id="41z-ZP-Hdd"/>
                                     <constraint firstAttribute="trailing" secondItem="u07-h1-HX3" secondAttribute="trailing" id="8ct-EB-FOe"/>
                                     <constraint firstItem="i4Z-UQ-sUo" firstAttribute="leading" secondItem="sic-ib-fHH" secondAttribute="leading" id="8nz-oM-4Cz"/>
                                     <constraint firstItem="ytZ-y6-GaQ" firstAttribute="top" secondItem="i4Z-UQ-sUo" secondAttribute="bottom" constant="15" id="Gi2-BS-bzr"/>
                                     <constraint firstItem="sic-ib-fHH" firstAttribute="trailing" secondItem="i4Z-UQ-sUo" secondAttribute="trailing" id="Gz5-Wy-zwC"/>
-                                    <constraint firstItem="3j5-BV-xpJ" firstAttribute="top" secondItem="ytZ-y6-GaQ" secondAttribute="bottom" constant="30" id="HIt-UK-9vG"/>
+                                    <constraint firstItem="u07-h1-HX3" firstAttribute="top" secondItem="ytZ-y6-GaQ" secondAttribute="bottom" constant="25" id="HIt-UK-9vG"/>
                                     <constraint firstItem="u07-h1-HX3" firstAttribute="bottom" secondItem="ll7-14-srb" secondAttribute="bottom" id="HoO-wr-PQs"/>
                                     <constraint firstItem="sic-ib-fHH" firstAttribute="trailing" secondItem="ytZ-y6-GaQ" secondAttribute="trailing" id="T04-gE-Ola"/>
                                     <constraint firstItem="u07-h1-HX3" firstAttribute="leading" secondItem="sic-ib-fHH" secondAttribute="leading" id="UrT-W4-FQ3"/>

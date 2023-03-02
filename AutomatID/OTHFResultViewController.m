@@ -38,6 +38,8 @@
     self.doneButton.titleLabel.text = NSLocalizedString(@"feedback_btn_close", @"");
 
     self.shareJWTButton.titleLabel.text = NSLocalizedString(@"feedback_share_jwt", @"");
+
+    self.shareJWTButton.hidden = self.lastReceivedJWT == nil;
 }
 
 
