@@ -34,9 +34,9 @@
         @"popup_popup_generic_ok" : @"YEAH!"
     }];
 
-//    for (NSString* familyStr in [UIFont familyNames]) {
-//        NSLog(@"%@ font names are: %@",familyStr, [UIFont fontNamesForFamilyName:familyStr]);
-//    }
+    for (NSString* familyStr in [UIFont familyNames]) {
+        NSLog(@"%@ font names are: %@",familyStr, [UIFont fontNamesForFamilyName:familyStr]);
+    }
     UIFont* regularFont = [UIFont fontWithName:@"Montserrat-Regular" size:12]; // size is overridden, same Font is shown at different sizes
     UIFont* mediumFont = [UIFont fontWithName:@"Montserrat-Medium" size:12]; // size is overridden, same Font is shown at different sizes
     UIFont* boldFont = [UIFont fontWithName:@"Montserrat-Bold" size:12]; // size is overridden, same Font is shown at different sizes

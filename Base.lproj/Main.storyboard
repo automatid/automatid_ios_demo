@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="Xs6-aE-H4E">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="Xs6-aE-H4E">
     <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -20,7 +20,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f5I-QQ-p9t">
-                                <rect key="frame" x="0.0" y="8" width="375" height="467.5"/>
+                                <rect key="frame" x="0.0" y="28" width="375" height="447.5"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="40" translatesAutoresizingMaskIntoConstraints="NO" id="jo9-K6-cQs">
                                         <rect key="frame" x="18" y="0.0" width="339" height="260"/>
@@ -75,7 +75,7 @@
                                 <viewLayoutGuide key="frameLayoutGuide" id="HaQ-hE-XmE"/>
                             </scrollView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Fc-9A-JWN" userLabel="Settings" customClass="AutomatIDPressableButton">
-                                <rect key="frame" x="296.5" y="8" width="58.5" height="44"/>
+                                <rect key="frame" x="296.5" y="28" width="58.5" height="44"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" image="sci_icon_header_settings" title=" "/>
                                 <connections>
@@ -83,7 +83,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OK4-r9-LUk" userLabel="Info" customClass="AutomatIDPressableButton">
-                                <rect key="frame" x="238" y="8" width="58.5" height="44"/>
+                                <rect key="frame" x="238" y="28" width="58.5" height="44"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" image="sci_icon_header_info" title=" "/>
                                 <connections>
@@ -181,7 +181,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IeX-JI-n7m" userLabel="Back" customClass="AutomatIDPressableButton">
-                                <rect key="frame" x="18" y="8" width="40" height="40"/>
+                                <rect key="frame" x="18" y="28" width="40" height="40"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="40" id="546-6F-ZCH"/>
                                     <constraint firstAttribute="height" constant="40" id="dsU-tC-KUf"/>
@@ -196,10 +196,10 @@
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="252" image="OpentechLogo" translatesAutoresizingMaskIntoConstraints="NO" id="DHr-E1-Gyn" userLabel="Animation View" customClass="LOTAnimationView">
-                                <rect key="frame" x="20" y="56" width="335" height="78"/>
+                                <rect key="frame" x="20" y="76" width="335" height="78"/>
                             </imageView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="l5v-7Y-YAg" userLabel="MainWhiteView">
-                                <rect key="frame" x="0.0" y="142" width="375" height="525"/>
+                                <rect key="frame" x="0.0" y="162" width="375" height="505"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" text="AutomatID™ Settings" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IxX-dB-YpK" customClass="AutomatIDLocalizedLabel" customModule="AutomatID_Example" customModuleProvider="target">
                                         <rect key="frame" x="20" y="8" width="335" height="21"/>
@@ -731,7 +731,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ogp-sA-5Hw">
-                                <rect key="frame" x="20" y="0.0" width="335" height="579"/>
+                                <rect key="frame" x="20" y="20" width="335" height="559"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="OpentechLogo" translatesAutoresizingMaskIntoConstraints="NO" id="i4Z-UQ-sUo" userLabel="Feedback Animation" customClass="LOTAnimationView">
                                         <rect key="frame" x="0.0" y="50" width="335" height="78"/>
@@ -838,7 +838,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jny-ZQ-BzD" customClass="AutomatIDPressableButton">
-                                <rect key="frame" x="20" y="8" width="58" height="44"/>
+                                <rect key="frame" x="20" y="28" width="58" height="44"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" image="sci_icon_header_close" title=" "/>
                                 <connections>
@@ -867,7 +867,7 @@
                                 </connections>
                             </button>
                             <wkWebView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="knx-ur-qTQ">
-                                <rect key="frame" x="20" y="60" width="335" height="531"/>
+                                <rect key="frame" x="20" y="80" width="335" height="511"/>
                                 <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <wkWebViewConfiguration key="configuration">
                                     <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
