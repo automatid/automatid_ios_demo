@@ -1,5 +1,5 @@
 PODS:
-  - AutomatID (2.0.2):
+  - AutomatID (2.1.0):
     - OTML
     - OTMLCore
     - OTMLFaceRecognitionAddon
@@ -17,6 +17,9 @@ PODS:
     - MLKitFaceDetection (~> 3.0.0)
   - GoogleMLKit/MLKitCore (4.0.0):
     - MLKitCommon (~> 9.0.0)
+  - GoogleMLKit/TextRecognition (4.0.0):
+    - GoogleMLKit/MLKitCore
+    - MLKitTextRecognition (~> 2.0.0)
   - GoogleToolboxForMac/DebugUtils (2.3.2):
     - GoogleToolboxForMac/Defines (= 2.3.2)
   - GoogleToolboxForMac/Defines (2.3.2)
@@ -52,6 +55,13 @@ PODS:
   - MLKitFaceDetection (3.0.0):
     - MLKitCommon (~> 9.0)
     - MLKitVision (~> 5.0)
+  - MLKitTextRecognition (2.0.0):
+    - MLKitCommon (~> 9.0)
+    - MLKitTextRecognitionCommon (= 1.0.0)
+    - MLKitVision (~> 5.0)
+  - MLKitTextRecognitionCommon (1.0.0):
+    - MLKitCommon (~> 9.0)
+    - MLKitVision (~> 5.0)
   - MLKitVision (5.0.0):
     - GoogleToolboxForMac/Logger (~> 2.1)
     - "GoogleToolboxForMac/NSData+zlib (~> 2.1)"
@@ -66,40 +76,37 @@ PODS:
   - NFCPassportReader (1.9.15):
     - OpenSSL-Universal (= 1.1.180)
   - OpenSSL-Universal (1.1.180)
-  - OTML (2.0.2):
+  - OTML (2.1.0):
     - DYCoding
     - lottie-ios (= 2.5.3)
     - OTMLCore
     - OTMLModels
-    - SMJJSONPath
     - TBXML
-  - OTMLCore (2.0.2):
+  - OTMLCore (2.1.0):
     - SAMKeychain
-  - OTMLFaceRecognitionAddon (2.0.2):
+  - OTMLFaceRecognitionAddon (2.1.0):
     - GoogleMLKit/FaceDetection
     - OTML
     - OTMLCore
     - OTMLModels
-  - OTMLModels (2.0.2):
+  - OTMLModels (2.1.0):
     - TBXML
-  - OTMLMRZReaderAddon (2.0.2):
+  - OTMLMRZReaderAddon (2.1.0):
+    - GoogleMLKit/TextRecognition
     - GPUImage
     - OTML
     - OTMLCore
     - OTMLModels
-    - TesseractOCRSDKiOS
-  - OTMLNfcDocumentReaderModule (2.0.2):
+  - OTMLNfcDocumentReaderModule (2.1.0):
     - NFCPassportReader
     - OTML
     - OTMLCore
     - OTMLModels
-  - OTNFCPassportReader (2.0.2):
+  - OTNFCPassportReader (2.1.0):
     - OpenSSL-Universal (= 1.1.180)
   - PromisesObjC (2.2.0)
   - SAMKeychain (1.5.3)
-  - SMJJSONPath (0.2.3)
   - TBXML (1.5)
-  - TesseractOCRSDKiOS (4.0.2)
 
 DEPENDENCIES:
   - AutomatID
@@ -128,17 +135,17 @@ SPEC REPOS:
     - MLImage
     - MLKitCommon
     - MLKitFaceDetection
+    - MLKitTextRecognition
+    - MLKitTextRecognitionCommon
     - MLKitVision
     - nanopb
     - OpenSSL-Universal
     - PromisesObjC
     - SAMKeychain
-    - SMJJSONPath
     - TBXML
-    - TesseractOCRSDKiOS
 
 SPEC CHECKSUMS:
-  AutomatID: bf4fba134f789c6dfd6e233ccc9e8c9f8e83302c
+  AutomatID: cc4afda20fdad24144d5162e24749a7194c9a5e8
   DYCoding: d598c00d5900fe069faae3f4002bbf1479f699a1
   GoogleDataTransport: f0308f5905a745f94fb91fea9c6cbaf3831cb1bd
   GoogleMLKit: 2bd0dc6253c4d4f227aad460f69215a504b2980e
@@ -151,22 +158,22 @@ SPEC CHECKSUMS:
   MLImage: 7bb7c4264164ade9bf64f679b40fb29c8f33ee9b
   MLKitCommon: c1b791c3e667091918d91bda4bba69a91011e390
   MLKitFaceDetection: 4981488f71ea8ed718cda692a29ab562637d9ae5
+  MLKitTextRecognition: 9ff0c843f2723d31d4bdd0c0d17a0a18382ed23e
+  MLKitTextRecognitionCommon: 0d48930fee25cce9d52d0ba217490d4797061aa2
   MLKitVision: 8baa5f46ee3352614169b85250574fde38c36f49
   nanopb: b552cce312b6c8484180ef47159bc0f65a1f0431
   NFCPassportReader: 933193941b717b7d803b4f624e7367fd4ce1ec94
   OpenSSL-Universal: 1aa4f6a6ee7256b83db99ec1ccdaa80d10f9af9b
-  OTML: 24b0b9f788838039f0f5b82601533f2b7b567693
-  OTMLCore: ce8d7718b341153c205e25293aa3cca101488969
-  OTMLFaceRecognitionAddon: 35e21c4027c5c9e337ab80f8b5b283ff4facc271
-  OTMLModels: 07c2e9ae54b703948c68d091058c41d47a0e7939
-  OTMLMRZReaderAddon: 150ee717a37a66e106f011f8a977b6419ea0eeb6
-  OTMLNfcDocumentReaderModule: a7fa67c190a9b84ff5c793465799da90f091148a
-  OTNFCPassportReader: 48c354e2809444959058cd6e46d1e717f9d31cac
+  OTML: 82a5521521ac955324b615bbe0a5b7543caa0e31
+  OTMLCore: afea9349b6eade422a8fa95be55d67681354598c
+  OTMLFaceRecognitionAddon: bdeafd747f93d2b710e56908abcd37038bd08926
+  OTMLModels: c01eba5607e129268449f51336fe6edd72da0902
+  OTMLMRZReaderAddon: 05fc0c140ae248950b6246b3f16d047d164b114b
+  OTMLNfcDocumentReaderModule: 15e8a5555583a1c988181894adaee7605df29cdd
+  OTNFCPassportReader: 99f80cd9f0c442c17470f8ea4896dc58a2276bbc
   PromisesObjC: 09985d6d70fbe7878040aa746d78236e6946d2ef
   SAMKeychain: 483e1c9f32984d50ca961e26818a534283b4cd5c
-  SMJJSONPath: f17ad811ebac9f68ea304f89a354c27653975021
   TBXML: 9f9dadb239f2f2af1dadb87fe43a0ce6e479379a
-  TesseractOCRSDKiOS: 5124816fe04de75f4d7ce91eb8b2bb5096aa6519
 
 PODFILE CHECKSUM: c39a0c10fa2982bd2a63104ca5a382ffb224f4a6
 
