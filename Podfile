@@ -11,13 +11,12 @@ target 'AutomatID_Example' do
 end
 
 post_install do |installer|
-    installer.pods_project.targets.each do |target|
-        target.build_configurations.each do |config|
-          if target.respond_to?(:product_type) and target.product_type == "com.apple.product-type.bundle"
+  installer.generated_projects.each do |project|
+        project.targets.each do |target|
             target.build_configurations.each do |config|
-              config.build_settings['CODE_SIGNING_ALLOWED'] = 'NO'
-            end
-          end
+                config.build_settings['IPHONEOS_DEPLOYMENT_TARGET'] = '13.0'
+                config.build_settings['CODE_SIGNING_ALLOWED'] = 'NO'
+             end
         end
-    end
+  end
 end
