@@ -21,7 +21,7 @@
 
     self.usePassport.on = ![defaults boolForKey:@"doNotAcceptPassport"];
     self.useIdentityCard.on = ![defaults boolForKey:@"doNotAcceptIdentityCard"];
-    self.shouldRetry.on = [defaults boolForKey:@"retryOnError"];
+    self.shouldRetry.on = ![defaults boolForKey:@"doNotRetryOnError"];
 
     [self updateDocumentsButtonSubtitle];
     [self updateErrorButtonSubtitle];
@@ -204,7 +204,7 @@
 -(IBAction) errorSettingsDonePressed
 {
     NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
-    [defaults setBool:self.shouldRetry.isOn forKey:@"retryOnError"];
+    [defaults setBool:!self.shouldRetry.isOn forKey:@"doNotRetryOnError"];
 
     [self closeErrorSettings];
     [self updateErrorButtonSubtitle];
@@ -233,7 +233,7 @@
 
 -(IBAction) closeErrorSettings {
     NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
-    self.shouldRetry.on = [defaults boolForKey:@"retryOnError"];
+    self.shouldRetry.on = ![defaults boolForKey:@"doNotRetryOnError"];
 
     [UIView animateWithDuration:0.3 animations:^{
         self.errorSettings.alpha = 0.0;

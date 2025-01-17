@@ -12,11 +12,14 @@
 		2321580128870770000705A6 /* Montserrat-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2372DF392886FC07009F213A /* Montserrat-Medium.ttf */; };
 		2321580228870770000705A6 /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2372DF3A2886FC07009F213A /* Montserrat-Regular.ttf */; };
 		232D9D172902946900EECF83 /* OTHFTermsAndConditionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 232D9D162902946900EECF83 /* OTHFTermsAndConditionsViewController.m */; };
+		2340908B2BCFDCB900828C9C /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 2340908A2BCFDCB900828C9C /* PrivacyInfo.xcprivacy */; };
 		2349FEBF29016DA40003A687 /* OTHFSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2349FEBE29016DA40003A687 /* OTHFSettingsViewController.m */; };
 		2349FEC229016E930003A687 /* OTHFResultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2349FEC129016E930003A687 /* OTHFResultViewController.m */; };
 		2361FE342923EBF500F7CA86 /* AutomatIDPressableButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 2361FE332923EBF500F7CA86 /* AutomatIDPressableButton.m */; };
 		2361FE372923EC1900F7CA86 /* AutomatIDSubtitledButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 2361FE362923EC1900F7CA86 /* AutomatIDSubtitledButton.m */; };
 		2361FE3A2923ED9500F7CA86 /* AutomatIDLocalizedLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2361FE392923ED9500F7CA86 /* AutomatIDLocalizedLabel.swift */; };
+		2376DAA52BA43DA900CC32BC /* OTHFSuccessViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2376DAA42BA43DA900CC32BC /* OTHFSuccessViewController.m */; };
+		23963AEA2A9CF4A6002DE38D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 23963AE92A9CF4A6002DE38D /* GoogleService-Info.plist */; };
 		23A358EC29254B6400D0E552 /* sci_demo_app_landing_animation.json in Resources */ = {isa = PBXBuildFile; fileRef = 23A358EB29254B6400D0E552 /* sci_demo_app_landing_animation.json */; };
 		23B4040A2909532D006F01BB /* sci_demo_app_feedback_error.json in Resources */ = {isa = PBXBuildFile; fileRef = 23B404092909532D006F01BB /* sci_demo_app_feedback_error.json */; };
 		23B4040C290958F0006F01BB /* sci_demo_app_feedback_success.json in Resources */ = {isa = PBXBuildFile; fileRef = 23B4040B290958F0006F01BB /* sci_demo_app_feedback_success.json */; };
@@ -25,7 +28,7 @@
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
-		9DBBD9369A0BDD0F239C980F /* Pods_AutomatID_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E4BD879669419CE37866A28 /* Pods_AutomatID_Example.framework */; };
+		9FEADD449F2B5C4206C9ED85 /* Pods_AutomatID_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65C3112B9652D1616AB65B19 /* Pods_AutomatID_Example.framework */; };
 		AA8F5F792243A8670053EC4D /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = AAE1ADBE2118869600971A51 /* Settings.bundle */; };
 		AAC54B0921198BFB00D93642 /* versions.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = AAC54B0821198BFB00D93642 /* versions.xcconfig */; };
 		AAD26FAE21BFBF2B0056E3D8 /* Licenses in Resources */ = {isa = PBXBuildFile; fileRef = AAD26FAD21BFBF2B0056E3D8 /* Licenses */; };
@@ -37,12 +40,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1E4BD879669419CE37866A28 /* Pods_AutomatID_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AutomatID_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		212DCF34A225847077498076 /* Pods-AutomatID_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AutomatID_Example.release.xcconfig"; path = "Target Support Files/Pods-AutomatID_Example/Pods-AutomatID_Example.release.xcconfig"; sourceTree = "<group>"; };
 		231F4B5525AC5D6D00044B6C /* MockLaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MockLaunchScreen.storyboard; sourceTree = "<group>"; };
 		231F4B5625AC5EF400044B6C /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = Settings.bundle; path = MelaConfig/Resources/MULTIPUNTAMENTO/define/Settings.bundle; sourceTree = "<group>"; };
 		232D9D152902946800EECF83 /* OTHFTermsAndConditionsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OTHFTermsAndConditionsViewController.h; sourceTree = "<group>"; };
 		232D9D162902946900EECF83 /* OTHFTermsAndConditionsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OTHFTermsAndConditionsViewController.m; sourceTree = "<group>"; };
+		2340908A2BCFDCB900828C9C /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		2349FEBD29016DA40003A687 /* OTHFSettingsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OTHFSettingsViewController.h; sourceTree = "<group>"; };
 		2349FEBE29016DA40003A687 /* OTHFSettingsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OTHFSettingsViewController.m; sourceTree = "<group>"; };
 		2349FEC029016E930003A687 /* OTHFResultViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OTHFResultViewController.h; sourceTree = "<group>"; };
@@ -57,9 +59,12 @@
 		2372DF382886FC07009F213A /* Montserrat-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Montserrat-Bold.ttf"; path = "CustomFonts/Montserrat-Bold.ttf"; sourceTree = "<group>"; };
 		2372DF392886FC07009F213A /* Montserrat-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Montserrat-Medium.ttf"; path = "CustomFonts/Montserrat-Medium.ttf"; sourceTree = "<group>"; };
 		2372DF3A2886FC07009F213A /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Montserrat-Regular.ttf"; path = "CustomFonts/Montserrat-Regular.ttf"; sourceTree = "<group>"; };
+		2376DAA32BA43DA900CC32BC /* OTHFSuccessViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OTHFSuccessViewController.h; sourceTree = "<group>"; };
+		2376DAA42BA43DA900CC32BC /* OTHFSuccessViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OTHFSuccessViewController.m; sourceTree = "<group>"; };
 		237E4C1828B7BFCE003A75A2 /* AutomatID-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "AutomatID-Info.plist"; path = "Base.lproj/AutomatID-Info.plist"; sourceTree = "<group>"; };
 		237E4C1A28B7BFD9003A75A2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = en; path = "en.lproj/AutomatID-Info.plist"; sourceTree = "<group>"; };
 		237E4C1B28B7BFDB003A75A2 /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = it; path = "it.lproj/AutomatID-Info.plist"; sourceTree = "<group>"; };
+		23963AE92A9CF4A6002DE38D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		23A358E929253F9200D0E552 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = de; path = "de.lproj/AutomatID-Info.plist"; sourceTree = "<group>"; };
 		23A358EA29253F9700D0E552 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
 		23A358EB29254B6400D0E552 /* sci_demo_app_landing_animation.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = sci_demo_app_landing_animation.json; path = LottieAnimations/sci_demo_app_landing_animation.json; sourceTree = "<group>"; };
@@ -70,12 +75,14 @@
 		23D2485F2907C42B00B19CC2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		23D248612907C42D00B19CC2 /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/Localizable.strings; sourceTree = "<group>"; };
 		23D4D938275A5FBC00FE20AC /* updateinternalversion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = updateinternalversion.swift; sourceTree = "<group>"; };
-		24CE68096C7D4040003EC570 /* Pods-AutomatID_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AutomatID_Example.debug.xcconfig"; path = "Target Support Files/Pods-AutomatID_Example/Pods-AutomatID_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* AutomatID_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutomatID_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		6003F591195388D20070C39A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		65C3112B9652D1616AB65B19 /* Pods_AutomatID_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AutomatID_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		85CCCE4D6A87EECEFB6CC32E /* Pods-AutomatID_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AutomatID_Example.release.xcconfig"; path = "Target Support Files/Pods-AutomatID_Example/Pods-AutomatID_Example.release.xcconfig"; sourceTree = "<group>"; };
+		99EE56431DC278E1B2E6F61D /* Pods-AutomatID_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AutomatID_Example.debug.xcconfig"; path = "Target Support Files/Pods-AutomatID_Example/Pods-AutomatID_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		AAC54B0821198BFB00D93642 /* versions.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = versions.xcconfig; sourceTree = "<group>"; };
 		AAC54B0A21198FEA00D93642 /* debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = debug.xcconfig; sourceTree = "<group>"; };
 		AAC54B0B21198FEA00D93642 /* release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = release.xcconfig; sourceTree = "<group>"; };
@@ -101,7 +108,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				9DBBD9369A0BDD0F239C980F /* Pods_AutomatID_Example.framework in Frameworks */,
+				9FEADD449F2B5C4206C9ED85 /* Pods_AutomatID_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,6 +143,7 @@
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
+				2340908A2BCFDCB900828C9C /* PrivacyInfo.xcprivacy */,
 				23A358EB29254B6400D0E552 /* sci_demo_app_landing_animation.json */,
 				23B4040D29095EBC006F01BB /* sci_demo_app_feedback_settings.json */,
 				23B4040B290958F0006F01BB /* sci_demo_app_feedback_success.json */,
@@ -176,7 +184,7 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				1E4BD879669419CE37866A28 /* Pods_AutomatID_Example.framework */,
+				65C3112B9652D1616AB65B19 /* Pods_AutomatID_Example.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -184,6 +192,7 @@
 		BF22716D27FF3216006D98A5 /* AutomatID */ = {
 			isa = PBXGroup;
 			children = (
+				23963AE92A9CF4A6002DE38D /* GoogleService-Info.plist */,
 				2372DF382886FC07009F213A /* Montserrat-Bold.ttf */,
 				2372DF392886FC07009F213A /* Montserrat-Medium.ttf */,
 				2372DF3A2886FC07009F213A /* Montserrat-Regular.ttf */,
@@ -206,6 +215,8 @@
 				2361FE362923EC1900F7CA86 /* AutomatIDSubtitledButton.m */,
 				2361FE392923ED9500F7CA86 /* AutomatIDLocalizedLabel.swift */,
 				2361FE382923ED9400F7CA86 /* AutomatID_Example-Bridging-Header.h */,
+				2376DAA32BA43DA900CC32BC /* OTHFSuccessViewController.h */,
+				2376DAA42BA43DA900CC32BC /* OTHFSuccessViewController.m */,
 			);
 			path = AutomatID;
 			sourceTree = "<group>";
@@ -213,8 +224,8 @@
 		DB1CF226944D3EC7024FC454 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				24CE68096C7D4040003EC570 /* Pods-AutomatID_Example.debug.xcconfig */,
-				212DCF34A225847077498076 /* Pods-AutomatID_Example.release.xcconfig */,
+				99EE56431DC278E1B2E6F61D /* Pods-AutomatID_Example.debug.xcconfig */,
+				85CCCE4D6A87EECEFB6CC32E /* Pods-AutomatID_Example.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -226,13 +237,14 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "AutomatID_Example" */;
 			buildPhases = (
-				15798F084F856D59D6291EAF /* [CP] Check Pods Manifest.lock */,
+				1A9D93C9BE5D0355142E05E9 /* [CP] Check Pods Manifest.lock */,
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
 				23B34C7D276A21DA00606DCA /* ShellScript */,
-				9F86C1657C86010969F5055C /* [CP] Embed Pods Frameworks */,
-				BA7E62EB410C877FA22C8FD2 /* [CP] Copy Pods Resources */,
+				23963AEB2A9CF731002DE38D /* Crashlytics */,
+				65B63BB6BD512A90AA4BF984 /* [CP] Embed Pods Frameworks */,
+				DBC7EE80EC9AAA86E163112D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -294,9 +306,11 @@
 			files = (
 				231F4B5725AC613200044B6C /* MockLaunchScreen.storyboard in Resources */,
 				23B4040C290958F0006F01BB /* sci_demo_app_feedback_success.json in Resources */,
+				23963AEA2A9CF4A6002DE38D /* GoogleService-Info.plist in Resources */,
 				AA8F5F792243A8670053EC4D /* Settings.bundle in Resources */,
 				AAC54B0921198BFB00D93642 /* versions.xcconfig in Resources */,
 				2321580028870770000705A6 /* Montserrat-Bold.ttf in Resources */,
+				2340908B2BCFDCB900828C9C /* PrivacyInfo.xcprivacy in Resources */,
 				AAF5E574211355A100536F7F /* Images.xcassets in Resources */,
 				23D2485E2907C42B00B19CC2 /* Localizable.strings in Resources */,
 				23B4040E29095EBC006F01BB /* sci_demo_app_feedback_settings.json in Resources */,
@@ -312,7 +326,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		15798F084F856D59D6291EAF /* [CP] Check Pods Manifest.lock */ = {
+		1A9D93C9BE5D0355142E05E9 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -334,6 +348,24 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		23963AEB2A9CF731002DE38D /* Crashlytics */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = Crashlytics;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n\"${PODS_ROOT}/FirebaseCrashlytics/run\"\n";
+		};
 		23B34C7D276A21DA00606DCA /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -351,7 +383,7 @@
 			shellPath = /bin/sh;
 			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n# Type a script or drag a script file from your workspace to insert its path.\nEXPORT_PATH_FOR_ARTIFACT=../Releases/temp/buildproducts \nmkdir -p ${EXPORT_PATH_FOR_ARTIFACT}\nrm -Rf ${EXPORT_PATH_FOR_ARTIFACT}\ncp -f -RL ${BUILT_PRODUCTS_DIR} ${EXPORT_PATH_FOR_ARTIFACT} \n";
 		};
-		9F86C1657C86010969F5055C /* [CP] Embed Pods Frameworks */ = {
+		65B63BB6BD512A90AA4BF984 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -366,10 +398,11 @@
 				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
 				"${BUILT_PRODUCTS_DIR}/PromisesObjC/FBLPromises.framework",
 				"${BUILT_PRODUCTS_DIR}/SAMKeychain/SAMKeychain.framework",
-				"${BUILT_PRODUCTS_DIR}/TBXML/TBXML.framework",
+				"${BUILT_PRODUCTS_DIR}/TOCropViewController/TOCropViewController.framework",
+				"${BUILT_PRODUCTS_DIR}/ZXingObjC/ZXingObjC.framework",
+				"${BUILT_PRODUCTS_DIR}/libPhoneNumber-iOS/libPhoneNumber_iOS.framework",
 				"${BUILT_PRODUCTS_DIR}/lottie-ios/Lottie.framework",
 				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
-				"${PODS_XCFRAMEWORKS_BUILD_DIR}/NFCPassportReader/NFCPassportReader.framework/NFCPassportReader",
 				"${PODS_XCFRAMEWORKS_BUILD_DIR}/OpenSSL-Universal/OpenSSL.framework/OpenSSL",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -382,10 +415,11 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBLPromises.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SAMKeychain.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TBXML.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TOCropViewController.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ZXingObjC.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/libPhoneNumber_iOS.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Lottie.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NFCPassportReader.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/OpenSSL.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -393,7 +427,7 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AutomatID_Example/Pods-AutomatID_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		BA7E62EB410C877FA22C8FD2 /* [CP] Copy Pods Resources */ = {
+		DBC7EE80EC9AAA86E163112D /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -429,6 +463,7 @@
 				2349FEBF29016DA40003A687 /* OTHFSettingsViewController.m in Sources */,
 				2361FE342923EBF500F7CA86 /* AutomatIDPressableButton.m in Sources */,
 				BFEBF91127FF358400B6AE38 /* OTHFAppDelegate.m in Sources */,
+				2376DAA52BA43DA900CC32BC /* OTHFSuccessViewController.m in Sources */,
 				2361FE372923EC1900F7CA86 /* AutomatIDSubtitledButton.m in Sources */,
 				BFEBF91027FF357F00B6AE38 /* OTHFViewController.m in Sources */,
 				AAF5E573211355A100536F7F /* main.m in Sources */,
@@ -561,7 +596,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = NO;
 				GCC_PREFIX_HEADER = "AutomatID/AutomatID-Prefix.pch";
 				INFOPLIST_FILE = "AutomatID/Base.lproj/AutomatID-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				ONLY_ACTIVE_ARCH = YES;
@@ -597,7 +632,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = NO;
 				GCC_PREFIX_HEADER = "AutomatID/AutomatID-Prefix.pch";
 				INFOPLIST_FILE = "AutomatID/Base.lproj/AutomatID-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = com.opentech.automatid.demoapp;

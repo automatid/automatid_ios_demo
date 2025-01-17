@@ -9,6 +9,21 @@
 #import "OTHFResultViewController.h"
 
 
+@interface OTFHResultSyccessView : UIView
+
+
+
+@end
+
+@implementation OTFHResultSyccessView
+
++ (BOOL)requiresConstraintBasedLayout 
+{
+    return YES;
+}
+
+@end
+
 @interface OTHFResultViewController ()
 @property NSString* lastReceivedJWT;
 @property NSString* animationToPlay;
@@ -42,19 +57,6 @@
     self.shareJWTButton.hidden = self.lastReceivedJWT == nil;
 }
 
-
--(void) showResult:(AutomatIDResultSuccess*) result
-{
-    self.shareJWTButton.hidden = NO;
-    self.lastReceivedJWT = result.jwt;
-    self.animationToPlay = @"sci_demo_app_feedback_success";
-    
-    NSString * _Nonnull titleText = NSLocalizedString(@"feedback_title_success", @"");
-    self.titleText = titleText;
-    NSString * _Nonnull feedbackText = NSLocalizedString(@"feedback_body_success", @"");
-    self.feedbackBody = feedbackText;
-
-}
 
 -(void) showError:(AutomatIDResultError*) result
 {

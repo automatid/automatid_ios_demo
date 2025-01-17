@@ -21,7 +21,6 @@ class AutomatIDLocalizedLabel: UILabel {
             if localizedText.contains("<b>") {
                 guard let data = localizedText.data(using: .utf16) else { return }
                 if let attributedString = try? NSAttributedString(data: data, options: [.documentType: NSAttributedString.DocumentType.html], documentAttributes: nil) {
-                    print("attributedString; \(attributedString)")
                     self.attributedText = attributedString
                 } else {
                     self.text = localizedText

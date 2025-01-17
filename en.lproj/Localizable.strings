@@ -7,9 +7,9 @@
 */
 "feedback_btn_close" = "Done";
 "feedback_share_jwt" = "Share JWT Token";
-"feedback_body_success" = "Your identity has been successfully verified.\nWe generated a JWT token containing the result of this identification.";
+"feedback_body_success" = "Your identity has been successfully verified.\n Please find below the results.";
 "feedback_title_error" = "Error";
-"feedback_title_success" = "Identity verification successfully completed";
+"feedback_title_success" = "Identification successfull";
 
 "welcome_title" = "Welcome to AutomatID™";
 "welcome_body1" = "Smart Technology for Smart Identifications";
@@ -18,6 +18,11 @@
 "welcome_footer" = "🔓 Your privacy and the security of your data is our top priority. In line with our mission, the data read is always <b>encrypted</b> and <b>not stored anywhere.</b>";
 "tc_title" = "AutomatID™ Privacy policy";
 "tc_btn_accept" = "Accept and Continue";
+
+"issuing_authority_authenticity" = "Autenticità dell'ente emittente";
+"document_data_integrity" = "Integrità dei dati del documento";
+"liveness_check" = "Liveness check";
+"face_comparison_matching" = "Corrispondenza del volto";
 
 "error_management_title" = "Error Management";
 "error_management_body1" = "Choose how you want errors handled during the identification process.";

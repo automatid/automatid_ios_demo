@@ -1,113 +1,114 @@
 PODS:
-  - AutomatID (2.1.5):
-    - OTML
-    - OTMLCore
-    - OTMLFaceRecognitionAddon
-    - OTMLModels
-    - OTMLMRZReaderAddon
-    - OTMLNfcDocumentReaderModule
-    - OTNFCPassportReader
+  - AutomatID (2.3.5):
+    - OTML (= 2.3.5)
+    - OTMLCore (= 2.3.5)
+    - OTMLFaceRecognitionAddon (= 2.3.5)
+    - OTMLModels (= 2.3.5)
+    - OTMLMRZReaderAddon (= 2.3.5)
+    - OTMLNfcDocumentReaderModule (= 2.3.5)
+    - OTNFCPassportReader (= 2.3.5)
   - DYCoding (1.0)
-  - GoogleDataTransport (9.2.3):
+  - GoogleDataTransport (9.4.1):
     - GoogleUtilities/Environment (~> 7.7)
-    - nanopb (< 2.30910.0, >= 2.30908.0)
+    - nanopb (< 2.30911.0, >= 2.30908.0)
     - PromisesObjC (< 3.0, >= 1.2)
-  - GoogleMLKit/FaceDetection (4.0.0):
+  - GoogleMLKit/FaceDetection (6.0.0):
     - GoogleMLKit/MLKitCore
-    - MLKitFaceDetection (~> 3.0.0)
-  - GoogleMLKit/MLKitCore (4.0.0):
-    - MLKitCommon (~> 9.0.0)
-  - GoogleMLKit/TextRecognition (4.0.0):
+    - MLKitFaceDetection (~> 5.0.0)
+  - GoogleMLKit/MLKitCore (6.0.0):
+    - MLKitCommon (~> 11.0.0)
+  - GoogleMLKit/TextRecognition (6.0.0):
     - GoogleMLKit/MLKitCore
-    - MLKitTextRecognition (~> 2.0.0)
-  - GoogleToolboxForMac/DebugUtils (2.3.2):
-    - GoogleToolboxForMac/Defines (= 2.3.2)
-  - GoogleToolboxForMac/Defines (2.3.2)
-  - GoogleToolboxForMac/Logger (2.3.2):
-    - GoogleToolboxForMac/Defines (= 2.3.2)
-  - "GoogleToolboxForMac/NSData+zlib (2.3.2)":
-    - GoogleToolboxForMac/Defines (= 2.3.2)
-  - "GoogleToolboxForMac/NSDictionary+URLArguments (2.3.2)":
-    - GoogleToolboxForMac/DebugUtils (= 2.3.2)
-    - GoogleToolboxForMac/Defines (= 2.3.2)
-    - "GoogleToolboxForMac/NSString+URLArguments (= 2.3.2)"
-  - "GoogleToolboxForMac/NSString+URLArguments (2.3.2)"
-  - GoogleUtilities/Environment (7.11.1):
+    - MLKitTextRecognition (~> 4.0.0)
+  - GoogleToolboxForMac/Defines (4.2.1)
+  - GoogleToolboxForMac/Logger (4.2.1):
+    - GoogleToolboxForMac/Defines (= 4.2.1)
+  - "GoogleToolboxForMac/NSData+zlib (4.2.1)":
+    - GoogleToolboxForMac/Defines (= 4.2.1)
+  - GoogleUtilities/Environment (7.13.3):
+    - GoogleUtilities/Privacy
     - PromisesObjC (< 3.0, >= 1.2)
-  - GoogleUtilities/Logger (7.11.1):
+  - GoogleUtilities/Logger (7.13.3):
     - GoogleUtilities/Environment
-  - GoogleUtilities/UserDefaults (7.11.1):
+    - GoogleUtilities/Privacy
+  - GoogleUtilities/Privacy (7.13.3)
+  - GoogleUtilities/UserDefaults (7.13.3):
     - GoogleUtilities/Logger
+    - GoogleUtilities/Privacy
   - GoogleUtilitiesComponents (1.1.0):
     - GoogleUtilities/Logger
   - GPUImage (0.1.7)
-  - GTMSessionFetcher/Core (2.3.0)
+  - GTMSessionFetcher/Core (3.5.0)
+  - libPhoneNumber-iOS (0.9.15)
   - lottie-ios (2.5.3)
-  - MLImage (1.0.0-beta4)
-  - MLKitCommon (9.0.0):
-    - GoogleDataTransport (~> 9.0)
-    - GoogleToolboxForMac/Logger (~> 2.1)
-    - "GoogleToolboxForMac/NSData+zlib (~> 2.1)"
-    - "GoogleToolboxForMac/NSDictionary+URLArguments (~> 2.1)"
-    - GoogleUtilities/UserDefaults (~> 7.0)
+  - MLImage (1.0.0-beta5)
+  - MLKitCommon (11.0.0):
+    - GoogleDataTransport (< 10.0, >= 9.4.1)
+    - GoogleToolboxForMac/Logger (< 5.0, >= 4.2.1)
+    - "GoogleToolboxForMac/NSData+zlib (< 5.0, >= 4.2.1)"
+    - GoogleUtilities/UserDefaults (< 8.0, >= 7.13.0)
     - GoogleUtilitiesComponents (~> 1.0)
-    - GTMSessionFetcher/Core (< 3.0, >= 1.1)
-  - MLKitFaceDetection (3.0.0):
-    - MLKitCommon (~> 9.0)
-    - MLKitVision (~> 5.0)
-  - MLKitTextRecognition (2.0.0):
-    - MLKitCommon (~> 9.0)
-    - MLKitTextRecognitionCommon (= 1.0.0)
-    - MLKitVision (~> 5.0)
-  - MLKitTextRecognitionCommon (1.0.0):
-    - MLKitCommon (~> 9.0)
-    - MLKitVision (~> 5.0)
-  - MLKitVision (5.0.0):
-    - GoogleToolboxForMac/Logger (~> 2.1)
-    - "GoogleToolboxForMac/NSData+zlib (~> 2.1)"
-    - GTMSessionFetcher/Core (< 3.0, >= 1.1)
-    - MLImage (= 1.0.0-beta4)
-    - MLKitCommon (~> 9.0)
-  - nanopb (2.30909.0):
-    - nanopb/decode (= 2.30909.0)
-    - nanopb/encode (= 2.30909.0)
-  - nanopb/decode (2.30909.0)
-  - nanopb/encode (2.30909.0)
-  - NFCPassportReader (1.9.15):
-    - OpenSSL-Universal (= 1.1.180)
+    - GTMSessionFetcher/Core (< 4.0, >= 3.3.2)
+  - MLKitFaceDetection (5.0.0):
+    - MLKitCommon (~> 11.0)
+    - MLKitVision (~> 7.0)
+  - MLKitTextRecognition (4.0.0):
+    - MLKitCommon (~> 11.0)
+    - MLKitTextRecognitionCommon (= 3.0.0)
+    - MLKitVision (~> 7.0)
+  - MLKitTextRecognitionCommon (3.0.0):
+    - MLKitCommon (~> 11.0)
+    - MLKitVision (~> 7.0)
+  - MLKitVision (7.0.0):
+    - GoogleToolboxForMac/Logger (< 5.0, >= 4.2.1)
+    - "GoogleToolboxForMac/NSData+zlib (< 5.0, >= 4.2.1)"
+    - GTMSessionFetcher/Core (< 4.0, >= 3.3.2)
+    - MLImage (= 1.0.0-beta5)
+    - MLKitCommon (~> 11.0)
+  - nanopb (2.30910.0):
+    - nanopb/decode (= 2.30910.0)
+    - nanopb/encode (= 2.30910.0)
+  - nanopb/decode (2.30910.0)
+  - nanopb/encode (2.30910.0)
   - OpenSSL-Universal (1.1.180)
-  - OTML (2.1.5):
-    - DYCoding
+  - OTML (2.3.5):
+    - DYCoding (= 1.0)
+    - libPhoneNumber-iOS (= 0.9.15)
     - lottie-ios (= 2.5.3)
-    - OTMLCore
-    - OTMLModels
-    - TBXML
-  - OTMLCore (2.1.6):
+    - OTMLCore (= 2.3.5)
+    - OTMLModels (= 2.3.5)
+    - OTTBXML (= 2.3.5)
+    - TOCropViewController (= 2.6.1)
+    - ZXingObjC (= 3.6.5)
+  - OTMLCore (2.3.5):
     - SAMKeychain
-  - OTMLFaceRecognitionAddon (2.1.5):
+  - OTMLFaceRecognitionAddon (2.3.5):
     - GoogleMLKit/FaceDetection
-    - OTML
-    - OTMLCore
-    - OTMLModels
-  - OTMLModels (2.1.6):
-    - TBXML
-  - OTMLMRZReaderAddon (2.1.5):
+    - OTML (= 2.3.5)
+    - OTMLCore (= 2.3.5)
+    - OTMLModels (= 2.3.5)
+  - OTMLModels (2.3.5):
+    - OTTBXML (= 2.3.5)
+  - OTMLMRZReaderAddon (2.3.5):
     - GoogleMLKit/TextRecognition
     - GPUImage
-    - OTML
-    - OTMLCore
-    - OTMLModels
-  - OTMLNfcDocumentReaderModule (2.1.5):
-    - NFCPassportReader
-    - OTML
-    - OTMLCore
-    - OTMLModels
-    - OTNFCPassportReader
-  - OTNFCPassportReader (2.1.6):
+    - OTML (= 2.3.5)
+    - OTMLCore (= 2.3.5)
+    - OTMLModels (= 2.3.5)
+  - OTMLNfcDocumentReaderModule (2.3.5):
+    - OTML (= 2.3.5)
+    - OTMLCore (= 2.3.5)
+    - OTMLModels (= 2.3.5)
+    - OTNFCPassportReader (= 2.3.5)
+  - OTNFCPassportReader (2.3.5):
     - OpenSSL-Universal (= 1.1.180)
-  - PromisesObjC (2.2.0)
+  - OTTBXML (2.3.5)
+  - PromisesObjC (2.4.0)
   - SAMKeychain (1.5.3)
-  - TBXML (1.5)
+  - TOCropViewController (2.6.1)
+  - ZXingObjC (3.6.5):
+    - ZXingObjC/All (= 3.6.5)
+  - ZXingObjC/All (3.6.5)
 
 DEPENDENCIES:
   - AutomatID
@@ -115,7 +116,6 @@ DEPENDENCIES:
 SPEC REPOS:
   "git@github.com:automatid/automatid_specs.git":
     - AutomatID
-    - NFCPassportReader
     - OTML
     - OTMLCore
     - OTMLFaceRecognitionAddon
@@ -123,6 +123,7 @@ SPEC REPOS:
     - OTMLMRZReaderAddon
     - OTMLNfcDocumentReaderModule
     - OTNFCPassportReader
+    - OTTBXML
   https://github.com/CocoaPods/Specs.git:
     - DYCoding
     - GoogleDataTransport
@@ -132,6 +133,7 @@ SPEC REPOS:
     - GoogleUtilitiesComponents
     - GPUImage
     - GTMSessionFetcher
+    - libPhoneNumber-iOS
     - lottie-ios
     - MLImage
     - MLKitCommon
@@ -143,39 +145,42 @@ SPEC REPOS:
     - OpenSSL-Universal
     - PromisesObjC
     - SAMKeychain
-    - TBXML
+    - TOCropViewController
+    - ZXingObjC
 
 SPEC CHECKSUMS:
-  AutomatID: 66d81f6f9f111926a46ce322e686fd72c5e0540e
+  AutomatID: b39ba66970d390a83411d58f8c05bb76381855a5
   DYCoding: d598c00d5900fe069faae3f4002bbf1479f699a1
-  GoogleDataTransport: f0308f5905a745f94fb91fea9c6cbaf3831cb1bd
-  GoogleMLKit: 2bd0dc6253c4d4f227aad460f69215a504b2980e
-  GoogleToolboxForMac: 8bef7c7c5cf7291c687cf5354f39f9db6399ad34
-  GoogleUtilities: 9aa0ad5a7bc171f8bae016300bfcfa3fb8425749
+  GoogleDataTransport: 6c09b596d841063d76d4288cc2d2f42cc36e1e2a
+  GoogleMLKit: 97ac7af399057e99182ee8edfa8249e3226a4065
+  GoogleToolboxForMac: d1a2cbf009c453f4d6ded37c105e2f67a32206d8
+  GoogleUtilities: ea963c370a38a8069cc5f7ba4ca849a60b6d7d15
   GoogleUtilitiesComponents: 679b2c881db3b615a2777504623df6122dd20afe
   GPUImage: 733a5f0fab92df9de1c37ba9df520a833ccb406d
-  GTMSessionFetcher: 3a63d75eecd6aa32c2fc79f578064e1214dfdec2
+  GTMSessionFetcher: 5aea5ba6bd522a239e236100971f10cb71b96ab6
+  libPhoneNumber-iOS: 0a32a9525cf8744fe02c5206eb30d571e38f7d75
   lottie-ios: a50d5c0160425cd4b01b852bb9578963e6d92d31
-  MLImage: 7bb7c4264164ade9bf64f679b40fb29c8f33ee9b
-  MLKitCommon: c1b791c3e667091918d91bda4bba69a91011e390
-  MLKitFaceDetection: 4981488f71ea8ed718cda692a29ab562637d9ae5
-  MLKitTextRecognition: 9ff0c843f2723d31d4bdd0c0d17a0a18382ed23e
-  MLKitTextRecognitionCommon: 0d48930fee25cce9d52d0ba217490d4797061aa2
-  MLKitVision: 8baa5f46ee3352614169b85250574fde38c36f49
-  nanopb: b552cce312b6c8484180ef47159bc0f65a1f0431
-  NFCPassportReader: 933193941b717b7d803b4f624e7367fd4ce1ec94
+  MLImage: 1824212150da33ef225fbd3dc49f184cf611046c
+  MLKitCommon: afec63980417d29ffbb4790529a1b0a2291699e1
+  MLKitFaceDetection: 7c0e8bf09ddd27105da32d088fca978a99fc30cc
+  MLKitTextRecognition: c83c18ad25496f2077f6ec93c5940487ff2eb343
+  MLKitTextRecognitionCommon: c0b3a63d529296a19bce1f8bc8a513644ed4d1f6
+  MLKitVision: e858c5f125ecc288e4a31127928301eaba9ae0c1
+  nanopb: 438bc412db1928dac798aa6fd75726007be04262
   OpenSSL-Universal: 1aa4f6a6ee7256b83db99ec1ccdaa80d10f9af9b
-  OTML: 6a5d6102d576ae1a3afdd79aeec20ed235ce622d
-  OTMLCore: 94fb036856a3d1d9172d4ffb6978d28e0b931bf0
-  OTMLFaceRecognitionAddon: d123962a03090f7a5096e0bc05fa8ce03a15b353
-  OTMLModels: 7ca80cac88a336ae4cfc1b3c9d5f4272c6b69261
-  OTMLMRZReaderAddon: 3545a01cd56e756eddeb43c6ec2eb6e1d86157db
-  OTMLNfcDocumentReaderModule: 4637ae6ceffbb0782397568a10e08beded5fb361
-  OTNFCPassportReader: 6653b74264fa42787ebe9080a45580c0995a0641
-  PromisesObjC: 09985d6d70fbe7878040aa746d78236e6946d2ef
+  OTML: e61294442f8fff1a1f8159b2f28dafef4da2fa6b
+  OTMLCore: 111ac3725f1e4a36bc3baf4dda8a8e89aebc1a68
+  OTMLFaceRecognitionAddon: 477f8e230f0bf28b876028bfee0537b47b92ec08
+  OTMLModels: 83943fcfbc19d3068336a7dc5df934a765b79a7f
+  OTMLMRZReaderAddon: a4fbc57304f11ec6007a1edfd0a448d1e9e357d4
+  OTMLNfcDocumentReaderModule: 2a96cc8c860324f93e0a93ec8e327e1f0e0c047d
+  OTNFCPassportReader: ecc1b2b5be385edda8fdc8ec5ed1f94642e62fba
+  OTTBXML: c3824a653341beb1e6f4652885c08740b754b51b
+  PromisesObjC: f5707f49cb48b9636751c5b2e7d227e43fba9f47
   SAMKeychain: 483e1c9f32984d50ca961e26818a534283b4cd5c
-  TBXML: 9f9dadb239f2f2af1dadb87fe43a0ce6e479379a
+  TOCropViewController: edfd4f25713d56905ad1e0b9f5be3fbe0f59c863
+  ZXingObjC: fdbb269f25dd2032da343e06f10224d62f537bdb
 
 PODFILE CHECKSUM: 7eafa4451a5bb0ff674f1500634c0a31382c366b
 
-COCOAPODS: 1.12.1
+COCOAPODS: 1.16.2

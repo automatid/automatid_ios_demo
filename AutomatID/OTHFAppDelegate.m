@@ -9,12 +9,17 @@
 #import "OTHFAppDelegate.h"
 #import "ProjectConfigurationAutomatID_DEMO_IOS.h"
 
+@import FirebaseCore;
+@import AVFoundation;
+
 @import AutomatID;
 
 @implementation OTHFAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    [FIRApp configure];
+    
     NSError * error = nil;
     
     NSBundle *amazingBundle = [NSBundle bundleForClass:[self class]];
@@ -66,6 +71,7 @@
 - (UIInterfaceOrientationMask)application:(UIApplication *)application supportedInterfaceOrientationsForWindow:(UIWindow *)window
 {
     // NOTE: it is required to implement this method in order to rotate to landscape orientation the scanner view controller.
+
     if (AutomatIDManager.isOnScreen) {
         return [AutomatIDManager evaluateCurrentOrientation];
     } else {

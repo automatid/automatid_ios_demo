@@ -9,6 +9,7 @@
 #import "OTHFViewController.h"
 #import "OTHFResultViewController.h"
 #import "OTHFTermsAndConditionsViewController.h"
+#import "OTHFSuccessViewController.h"
 
 @import AutomatID;
 
@@ -36,8 +37,27 @@
 
     self.animationView.animation = @"sci_demo_app_landing_animation";
     [self.animationView play];
+
+//    [self mockResultScreen];
 }
 
+- (void) mockResultScreen
+{
+    AutomatIDResultSuccess* success = [[AutomatIDResultSuccess alloc] init];
+
+    success.usedDocument = AutomatIDDocumentTypes_PASSPORT;
+    success.jwt = @"eyJraWQiOiJrZXlJZEF1dG9tYXRJRFByZSIsImFsZyI6IlJTMjU2In0.ewogICJuYmYiOiAxNjk0MDgzOTYyLAogICJwaG90b01hdGNoaW5nUmVzdWx0IjogOTkuOTU4NywKICAic3VybmFtZSI6ICJCSUFOQ0hJIiwKICAiZG9jdW1lbnROdW1iZXIiOiAiQ0EyNDg0OUlVIiwKICAibmFtZSI6ICJBTEVTU0lPIiwKICAiaXNzIjogIk9wZW50ZWNoIiwKICAiZGF0ZU9mQmlydGgiOiAiODUwMzA3IiwKICAiZXhwIjogMTY5NDA4NDg2MiwKICAiaWF0IjogMTY5NDA4Mzk2MiwKICAiZG9jdW1lbnRQaG90byI6ICJcLzlqXC80QUFRU2taOVVBdUIyb0ZGQVwvblFJV2lseFJUQVwvXC85az0iCn0=.RcXIA2YqrkJ2qlz30a5uAhdKm7NITyzMC71zES7XsW8xXTMJ0i4xW2wE72LVG9lik7KwKBmOSrXwuR7-xLiimhk6tV_iO4E_Wtbrx0jMTcGU3fWrBNiHb8u5l3p4nbaHxKBS1SsSVYxpFy3VNwGsd6v78tSOowQQOYHBODxz3iR8Am8HHgXj9A66bDpMogAdwQZLYBmoNmZ6VBWGFfiUqsIZ0meSlAWGvWTbs_Yc_pFkYanLf-pzEaZbyEtMLZMsEZNjrRSJNdcEtheu8zC7UYhP66M877PPAFE9fglz9mJqZwKDuKlrjgXV5WFUnEkG0L6EQOLD1vDQ6EmlMqPXRg";
+
+    [self handleSuccess:success];
+}
+
+- (void) mockErrorScreen
+{
+    AutomatIDResultError* error = [[AutomatIDResultError alloc] init];
+    error.domain = @"domain error";
+    error.code = AutomatIDErrorCode_CONFIG_FILE_DECRYPTION_FAILED;
+    [self handleError:error];
+}
 
 + (NSMutableAttributedString*) attributedStringFromText:(NSAttributedString*) attribitedString
                                            andAlignment:(NSTextAlignment) textAlignment
@@ -95,7 +115,7 @@
 
     BOOL useIdentityCard = ![defaults boolForKey:@"doNotAcceptIdentityCard"];
     BOOL usePassport = ![defaults boolForKey:@"doNotAcceptPassport"];
-    BOOL shouldRetryOnError = [defaults boolForKey:@"retryOnError"];
+    BOOL shouldRetryOnError = ![defaults boolForKey:@"doNotRetryOnError"];
 
     NSMutableArray<AutomatIDDocumentType*>* docTypes = @[].mutableCopy;
 
@@ -166,9 +186,9 @@
 -(void) handleSuccess:(AutomatIDResultSuccess*) success
 {
     UIStoryboard * sboard = [UIStoryboard storyboardWithName:@"Main" bundle:NSBundle.mainBundle];
-    UIViewController* theVC = [sboard instantiateViewControllerWithIdentifier:@"resultviewcontroller"];
+    UIViewController* theVC = [sboard instantiateViewControllerWithIdentifier:@"successresultviewcontroller"];
     theVC.modalPresentationStyle = UIModalPresentationFullScreen;
-    OTHFResultViewController* vc = (OTHFResultViewController*)theVC;
+    OTHFSuccessViewController* vc = (OTHFSuccessViewController*)theVC;
     [vc showResult:success];
     [self presentViewController:vc animated:YES completion:^{
         NSLog(@"OTHFResultViewController on screen");
@@ -184,9 +204,11 @@
     [vc showError:error];
 
     [self presentViewController:vc animated:YES completion:^{
-        NSLog(@"OTHFResultViewController on screen");
+        NSLog(@"OTHFSuccessViewController on screen");
     }];
 }
+
+
 
 @end
 

@@ -21,7 +21,6 @@ NS_ASSUME_NONNULL_BEGIN
 @property (weak, nonatomic) IBOutlet UIButton *shareJWTButton;
 @property (weak, nonatomic) IBOutlet LOTAnimationView *animationView;
 
--(void) showResult:(AutomatIDResultSuccess*) result;
 -(void) showError:(AutomatIDResultError*) result;
 
 -(IBAction) shareJWT;

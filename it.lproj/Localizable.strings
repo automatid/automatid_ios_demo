@@ -13,17 +13,22 @@
 "ACCEPT_TT" = "Accept!(TT)";
 "DONE_TT" = "DONE!(TT)";
 "feedback_btn_close" = "Fine";
-"feedback_share_jwt" = "Condividi il Token JWT";
-"feedback_body_success" = "La tua identità è stata verificata con successo.\nAbbiamo generato un Token JWT contenente il risultato del processo di identificazione.";
+"feedback_share_jwt" = "Invia il JWT Token con i risultati";
+"feedback_body_success" = "La tua identità è stata verificata con successo. Trovi di seguito i risultati:";
 "feedback_title_error" = "Errore";
-"feedback_title_success" = "Verifica dell'identità completata con successo";
+"feedback_title_success" = "Identificazione avvenuta con successo";
 "welcome_title" = "Benvenuto in AutomatID™";
 "welcome_body1" = "Tecnologia smart per identificazioni smart";
 "welcome_body2" = "Leggi col tuo telefono il chip NFC dei tuoi documenti d'identità o delle tue carte di pagamento per identificarti in modo rapido e sicuro";
 "welcome_btn_start" = "Iniziamo!";
 "welcome_footer" = "<html>🔓 La tua privacy e la sicurezza dei tuoi dati sono la nostra massima priorità. È per questo che ci teniamo a dirti che i dati letti con AutomatID™ sono sempre <b>crittografati</b> e <b>non memorizzati da nessuna parte.</b></html>";
 "tc_title" = "Privacy policy di AutomatID™";
-"tc_btn_accept" = "Accetta e continua"; 
+"tc_btn_accept" = "Accetta e continua";
+
+"issuing_authority_authenticity" = "Autenticità dell'ente emittente";
+"document_data_integrity" = "Integrità dei dati del documento";
+"liveness_check" = "Liveness check";
+"face_comparison_matching" = "Corrispondenza del volto";
 
 "error_management_title" = "Gestione degli errori";
 "error_management_body1" = "Scegli cosa deve essere fatto in caso di errori durante il processo di identificazione.";
