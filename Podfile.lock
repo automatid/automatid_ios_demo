@@ -1,12 +1,12 @@
 PODS:
-  - AutomatID (2.3.5):
-    - OTML (= 2.3.5)
-    - OTMLCore (= 2.3.5)
-    - OTMLFaceRecognitionAddon (= 2.3.5)
-    - OTMLModels (= 2.3.5)
-    - OTMLMRZReaderAddon (= 2.3.5)
-    - OTMLNfcDocumentReaderModule (= 2.3.5)
-    - OTNFCPassportReader (= 2.3.5)
+  - AutomatID (2.3.6):
+    - OTML (= 2.3.6)
+    - OTMLCore (= 2.3.6)
+    - OTMLFaceRecognitionAddon (= 2.3.6)
+    - OTMLModels (= 2.3.6)
+    - OTMLMRZReaderAddon (= 2.3.6)
+    - OTMLNfcDocumentReaderModule (= 2.3.6)
+    - OTNFCPassportReader (= 2.3.6)
   - DYCoding (1.0)
   - GoogleDataTransport (9.4.1):
     - GoogleUtilities/Environment (~> 7.7)
@@ -71,38 +71,38 @@ PODS:
   - nanopb/decode (2.30910.0)
   - nanopb/encode (2.30910.0)
   - OpenSSL-Universal (1.1.180)
-  - OTML (2.3.5):
+  - OTML (2.3.6):
     - DYCoding (= 1.0)
     - libPhoneNumber-iOS (= 0.9.15)
     - lottie-ios (= 2.5.3)
-    - OTMLCore (= 2.3.5)
-    - OTMLModels (= 2.3.5)
-    - OTTBXML (= 2.3.5)
+    - OTMLCore (= 2.3.6)
+    - OTMLModels (= 2.3.6)
+    - OTTBXML (= 2.3.6)
     - TOCropViewController (= 2.6.1)
     - ZXingObjC (= 3.6.5)
-  - OTMLCore (2.3.5):
+  - OTMLCore (2.3.6):
     - SAMKeychain
-  - OTMLFaceRecognitionAddon (2.3.5):
+  - OTMLFaceRecognitionAddon (2.3.6):
     - GoogleMLKit/FaceDetection
-    - OTML (= 2.3.5)
-    - OTMLCore (= 2.3.5)
-    - OTMLModels (= 2.3.5)
-  - OTMLModels (2.3.5):
-    - OTTBXML (= 2.3.5)
-  - OTMLMRZReaderAddon (2.3.5):
+    - OTML (= 2.3.6)
+    - OTMLCore (= 2.3.6)
+    - OTMLModels (= 2.3.6)
+  - OTMLModels (2.3.6):
+    - OTTBXML (= 2.3.6)
+  - OTMLMRZReaderAddon (2.3.6):
     - GoogleMLKit/TextRecognition
     - GPUImage
-    - OTML (= 2.3.5)
-    - OTMLCore (= 2.3.5)
-    - OTMLModels (= 2.3.5)
-  - OTMLNfcDocumentReaderModule (2.3.5):
-    - OTML (= 2.3.5)
-    - OTMLCore (= 2.3.5)
-    - OTMLModels (= 2.3.5)
-    - OTNFCPassportReader (= 2.3.5)
-  - OTNFCPassportReader (2.3.5):
+    - OTML (= 2.3.6)
+    - OTMLCore (= 2.3.6)
+    - OTMLModels (= 2.3.6)
+  - OTMLNfcDocumentReaderModule (2.3.6):
+    - OTML (= 2.3.6)
+    - OTMLCore (= 2.3.6)
+    - OTMLModels (= 2.3.6)
+    - OTNFCPassportReader (= 2.3.6)
+  - OTNFCPassportReader (2.3.6):
     - OpenSSL-Universal (= 1.1.180)
-  - OTTBXML (2.3.5)
+  - OTTBXML (2.3.6)
   - PromisesObjC (2.4.0)
   - SAMKeychain (1.5.3)
   - TOCropViewController (2.6.1)
@@ -149,7 +149,7 @@ SPEC REPOS:
     - ZXingObjC
 
 SPEC CHECKSUMS:
-  AutomatID: b39ba66970d390a83411d58f8c05bb76381855a5
+  AutomatID: d44a98029ed4d24d931e8c62c302a6e7f1c6abff
   DYCoding: d598c00d5900fe069faae3f4002bbf1479f699a1
   GoogleDataTransport: 6c09b596d841063d76d4288cc2d2f42cc36e1e2a
   GoogleMLKit: 97ac7af399057e99182ee8edfa8249e3226a4065
@@ -168,14 +168,14 @@ SPEC CHECKSUMS:
   MLKitVision: e858c5f125ecc288e4a31127928301eaba9ae0c1
   nanopb: 438bc412db1928dac798aa6fd75726007be04262
   OpenSSL-Universal: 1aa4f6a6ee7256b83db99ec1ccdaa80d10f9af9b
-  OTML: e61294442f8fff1a1f8159b2f28dafef4da2fa6b
-  OTMLCore: 111ac3725f1e4a36bc3baf4dda8a8e89aebc1a68
-  OTMLFaceRecognitionAddon: 477f8e230f0bf28b876028bfee0537b47b92ec08
-  OTMLModels: 83943fcfbc19d3068336a7dc5df934a765b79a7f
-  OTMLMRZReaderAddon: a4fbc57304f11ec6007a1edfd0a448d1e9e357d4
-  OTMLNfcDocumentReaderModule: 2a96cc8c860324f93e0a93ec8e327e1f0e0c047d
-  OTNFCPassportReader: ecc1b2b5be385edda8fdc8ec5ed1f94642e62fba
-  OTTBXML: c3824a653341beb1e6f4652885c08740b754b51b
+  OTML: 0d47ad3ae630f81895dfd6e7add8ef44b735d95d
+  OTMLCore: 54cad807c61301a02dc1855da1ad943decc22b5d
+  OTMLFaceRecognitionAddon: 01ac3ffaf5d661a2b2aa795d1c4f7556a2d4d200
+  OTMLModels: 15f77d6463cdadedc95669b31b52d0747abe4498
+  OTMLMRZReaderAddon: 49c0e9fb9782f8dd5fc2ee332aae79b5c3881215
+  OTMLNfcDocumentReaderModule: 5919d6148aa4b90bd94e21488782849ad8aef89e
+  OTNFCPassportReader: 8cac0fc1ddedc4fd7516f71a190f62540880508f
+  OTTBXML: 958a45abdb88232e37909db62adfa97893e7f4bd
   PromisesObjC: f5707f49cb48b9636751c5b2e7d227e43fba9f47
   SAMKeychain: 483e1c9f32984d50ca961e26818a534283b4cd5c
   TOCropViewController: edfd4f25713d56905ad1e0b9f5be3fbe0f59c863
