@@ -7,7 +7,9 @@ platform :ios, '12.0'
 
 
 target 'AutomatID_Example' do
-    pod 'AutomatID'
+  pod 'AutomatID'
+  pod 'Firebase/Core'
+  pod 'Firebase/Crashlytics'
 end
 
 post_install do |installer|
