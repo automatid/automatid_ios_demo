@@ -71,6 +71,7 @@
 {
     NSArray* splitted = [aJWT componentsSeparatedByString:@"."];
     NSString* middleElement = splitted[1];
+    middleElement = [self base64urlToBase64:middleElement];
     NSData* clearELement = [OTMPBase64 dataOfBase64String:middleElement];
     NSError* err = nil;
     NSDictionary* jsonELement = [NSJSONSerialization JSONObjectWithData:clearELement options:NSJSONReadingMutableLeaves error:&err];
@@ -83,7 +84,15 @@
     return toReturn;
 }
 
-
+- (NSString *)base64urlToBase64:(NSString *)base64url {
+    NSString *base64 = [base64url stringByReplacingOccurrencesOfString:@"-" withString:@"+"];
+    base64 = [base64 stringByReplacingOccurrencesOfString:@"_" withString:@"/"];
+    NSInteger padding = 4 - (base64.length % 4);
+    if (padding != 4) {
+        base64 = [base64 stringByPaddingToLength:base64.length + padding withString:@"=" startingAtIndex:0];
+    }
+    return base64;
+}
 
 -(void) showResult:(AutomatIDResultSuccess*) result
 {
