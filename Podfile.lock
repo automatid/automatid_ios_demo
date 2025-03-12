@@ -1,44 +1,44 @@
 PODS:
-  - AutomatID (3.0.6):
-    - AutomatID_OTML (= 3.0.6)
-    - AutomatID_OTMLCore (= 3.0.6)
-    - AutomatID_OTMLFaceRecognitionAddon (= 3.0.6)
-    - AutomatID_OTMLModels (= 3.0.6)
-    - AutomatID_OTMLMRZReaderAddon (= 3.0.6)
-    - AutomatID_OTMLNfcDocumentReaderModule (= 3.0.6)
-    - AutomatID_OTNFCPassportReader (= 3.0.6)
-  - AutomatID_OTML (3.0.6):
-    - AutomatID_OTMLCore (= 3.0.6)
-    - AutomatID_OTMLModels (= 3.0.6)
-    - AutomatID_OTTBXML (= 3.0.6)
+  - AutomatID (3.0.7):
+    - AutomatID_OTML (= 3.0.7)
+    - AutomatID_OTMLCore (= 3.0.7)
+    - AutomatID_OTMLFaceRecognitionAddon (= 3.0.7)
+    - AutomatID_OTMLModels (= 3.0.7)
+    - AutomatID_OTMLMRZReaderAddon (= 3.0.7)
+    - AutomatID_OTMLNfcDocumentReaderModule (= 3.0.7)
+    - AutomatID_OTNFCPassportReader (= 3.0.7)
+  - AutomatID_OTML (3.0.7):
+    - AutomatID_OTMLCore (= 3.0.7)
+    - AutomatID_OTMLModels (= 3.0.7)
+    - AutomatID_OTTBXML (= 3.0.7)
     - DYCoding (= 1.0)
     - libPhoneNumber-iOS (= 0.9.15)
     - lottie-ios (= 2.5.3)
     - TOCropViewController (= 2.6.1)
     - ZXingObjC (= 3.6.5)
-  - AutomatID_OTMLCore (3.0.6):
+  - AutomatID_OTMLCore (3.0.7):
     - SAMKeychain
-  - AutomatID_OTMLFaceRecognitionAddon (3.0.6):
-    - AutomatID_OTML (= 3.0.6)
-    - AutomatID_OTMLCore (= 3.0.6)
-    - AutomatID_OTMLModels (= 3.0.6)
+  - AutomatID_OTMLFaceRecognitionAddon (3.0.7):
+    - AutomatID_OTML (= 3.0.7)
+    - AutomatID_OTMLCore (= 3.0.7)
+    - AutomatID_OTMLModels (= 3.0.7)
     - GoogleMLKit/FaceDetection
-  - AutomatID_OTMLModels (3.0.6):
-    - AutomatID_OTTBXML (= 3.0.6)
-  - AutomatID_OTMLMRZReaderAddon (3.0.6):
-    - AutomatID_OTML (= 3.0.6)
-    - AutomatID_OTMLCore (= 3.0.6)
-    - AutomatID_OTMLModels (= 3.0.6)
+  - AutomatID_OTMLModels (3.0.7):
+    - AutomatID_OTTBXML (= 3.0.7)
+  - AutomatID_OTMLMRZReaderAddon (3.0.7):
+    - AutomatID_OTML (= 3.0.7)
+    - AutomatID_OTMLCore (= 3.0.7)
+    - AutomatID_OTMLModels (= 3.0.7)
     - GoogleMLKit/TextRecognition
     - GPUImage
-  - AutomatID_OTMLNfcDocumentReaderModule (3.0.6):
-    - AutomatID_OTML (= 3.0.6)
-    - AutomatID_OTMLCore (= 3.0.6)
-    - AutomatID_OTMLModels (= 3.0.6)
-    - AutomatID_OTNFCPassportReader (= 3.0.6)
-  - AutomatID_OTNFCPassportReader (3.0.6):
+  - AutomatID_OTMLNfcDocumentReaderModule (3.0.7):
+    - AutomatID_OTML (= 3.0.7)
+    - AutomatID_OTMLCore (= 3.0.7)
+    - AutomatID_OTMLModels (= 3.0.7)
+    - AutomatID_OTNFCPassportReader (= 3.0.7)
+  - AutomatID_OTNFCPassportReader (3.0.7):
     - OpenSSL-Universal (= 1.1.180)
-  - AutomatID_OTTBXML (3.0.6)
+  - AutomatID_OTTBXML (3.0.7)
   - DYCoding (1.0)
   - Firebase/Core (10.29.0):
     - Firebase/CoreOnly
@@ -260,15 +260,15 @@ SPEC REPOS:
     - ZXingObjC
 
 SPEC CHECKSUMS:
-  AutomatID: 7f26b1c48b76fc398c6c8f2f7978459c6665e3ca
-  AutomatID_OTML: f08b3543ac4a77fa3b6f83461aab9b30af2e5558
-  AutomatID_OTMLCore: e40c50cddc9223a94a01fc863698b41495617416
-  AutomatID_OTMLFaceRecognitionAddon: 2dcc7eec5a6bc514acaaa1557266affeee74aad8
-  AutomatID_OTMLModels: 66075920a6cbbfa28a60185bf87ad2922075f48b
-  AutomatID_OTMLMRZReaderAddon: 737aab89f00ea00355ac0dec58687085c9497cb6
-  AutomatID_OTMLNfcDocumentReaderModule: 283e0745f13befacae061f60493131d6cae97390
-  AutomatID_OTNFCPassportReader: a91979d873a3d06aedc216d59129b6b7d9664eb0
-  AutomatID_OTTBXML: 0ecd0c351d85f730eb27fd4837997721c8861a36
+  AutomatID: 6d4f544e7196c88569d8c2320456a52904ae8dc6
+  AutomatID_OTML: cfa44647781a73435303d3fd883f33deadd44d23
+  AutomatID_OTMLCore: 5e9c0c414452df2572d1e5307cbcee4f62ba640d
+  AutomatID_OTMLFaceRecognitionAddon: 1c1aa20e9b0aedc57a734850e93b597ae00d6152
+  AutomatID_OTMLModels: 9bad34f919631bc837664ad90a5ae7a37a5f1ed6
+  AutomatID_OTMLMRZReaderAddon: 1889d260d813f78dc987bd7e30ae7ee314198c1a
+  AutomatID_OTMLNfcDocumentReaderModule: 4057270243f966db65698906da3ead8794dfcca9
+  AutomatID_OTNFCPassportReader: 59ed2e426520994cb3a61c739d20afb44ee4966b
+  AutomatID_OTTBXML: 293d98b1a0bc3d62191198018d5f3b60fe557f50
   DYCoding: d598c00d5900fe069faae3f4002bbf1479f699a1
   Firebase: cec914dab6fd7b1bd8ab56ea07ce4e03dd251c2d
   FirebaseAnalytics: 23717de130b779aa506e757edb9713d24b6ffeda
