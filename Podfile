@@ -3,7 +3,7 @@ source 'https://github.com/CocoaPods/Specs.git'
 
 install! 'cocoapods', :deterministic_uuids => false
 use_frameworks!
-platform :ios, '12.0'
+platform :ios, '13.0'
 
 
 target 'AutomatID_Example' do

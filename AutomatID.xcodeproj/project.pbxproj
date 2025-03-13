@@ -243,8 +243,8 @@
 				6003F588195388D20070C39A /* Resources */,
 				23B34C7D276A21DA00606DCA /* ShellScript */,
 				23963AEB2A9CF731002DE38D /* Crashlytics */,
-				526F3193180900F407E969B5 /* [CP] Embed Pods Frameworks */,
 				E6CC3C0E6C200277A782D6BC /* [CP] Copy Pods Resources */,
+				9505CA52E34E5A3D8B59A253 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -361,7 +361,7 @@
 			shellPath = /bin/sh;
 			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n# Type a script or drag a script file from your workspace to insert its path.\nEXPORT_PATH_FOR_ARTIFACT=../Releases/temp/buildproducts \nmkdir -p ${EXPORT_PATH_FOR_ARTIFACT}\nrm -Rf ${EXPORT_PATH_FOR_ARTIFACT}\ncp -f -RL ${BUILT_PRODUCTS_DIR} ${EXPORT_PATH_FOR_ARTIFACT} \n";
 		};
-		526F3193180900F407E969B5 /* [CP] Embed Pods Frameworks */ = {
+		9505CA52E34E5A3D8B59A253 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (

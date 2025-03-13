@@ -1,44 +1,41 @@
 PODS:
-  - AutomatID (3.0.8):
-    - AutomatID_OTML (= 3.0.8)
-    - AutomatID_OTMLCore (= 3.0.8)
-    - AutomatID_OTMLFaceRecognitionAddon (= 3.0.8)
-    - AutomatID_OTMLModels (= 3.0.8)
-    - AutomatID_OTMLMRZReaderAddon (= 3.0.8)
-    - AutomatID_OTMLNfcDocumentReaderModule (= 3.0.8)
-    - AutomatID_OTNFCPassportReader (= 3.0.8)
-  - AutomatID_OTML (3.0.8):
-    - AutomatID_OTMLCore (= 3.0.8)
-    - AutomatID_OTMLModels (= 3.0.8)
-    - AutomatID_OTTBXML (= 3.0.8)
+  - AutomatID (3.0.13):
+    - AutomatID_OTML (= 3.0.13)
+    - AutomatID_OTMLCore (= 3.0.13)
+    - AutomatID_OTMLFaceRecognitionAddon (= 3.0.13)
+    - AutomatID_OTMLModels (= 3.0.13)
+    - AutomatID_OTMLMRZReaderAddon (= 3.0.13)
+    - AutomatID_OTMLNfcDocumentReaderModule (= 3.0.13)
+  - AutomatID_OTML (3.0.13):
+    - AutomatID_OTMLCore (= 3.0.13)
+    - AutomatID_OTMLModels (= 3.0.13)
+    - AutomatID_OTTBXML (= 3.0.13)
     - DYCoding (= 1.0)
     - libPhoneNumber-iOS (= 0.9.15)
     - lottie-ios (= 2.5.3)
     - TOCropViewController (= 2.6.1)
     - ZXingObjC (= 3.6.5)
-  - AutomatID_OTMLCore (3.0.8):
+  - AutomatID_OTMLCore (3.0.13):
     - SAMKeychain
-  - AutomatID_OTMLFaceRecognitionAddon (3.0.8):
-    - AutomatID_OTML (= 3.0.8)
-    - AutomatID_OTMLCore (= 3.0.8)
-    - AutomatID_OTMLModels (= 3.0.8)
+  - AutomatID_OTMLFaceRecognitionAddon (3.0.13):
+    - AutomatID_OTML (= 3.0.13)
+    - AutomatID_OTMLCore (= 3.0.13)
+    - AutomatID_OTMLModels (= 3.0.13)
     - GoogleMLKit/FaceDetection
-  - AutomatID_OTMLModels (3.0.8):
-    - AutomatID_OTTBXML (= 3.0.8)
-  - AutomatID_OTMLMRZReaderAddon (3.0.8):
-    - AutomatID_OTML (= 3.0.8)
-    - AutomatID_OTMLCore (= 3.0.8)
-    - AutomatID_OTMLModels (= 3.0.8)
+  - AutomatID_OTMLModels (3.0.13):
+    - AutomatID_OTTBXML (= 3.0.13)
+  - AutomatID_OTMLMRZReaderAddon (3.0.13):
+    - AutomatID_OTML (= 3.0.13)
+    - AutomatID_OTMLCore (= 3.0.13)
+    - AutomatID_OTMLModels (= 3.0.13)
     - GoogleMLKit/TextRecognition
     - GPUImage
-  - AutomatID_OTMLNfcDocumentReaderModule (3.0.8):
-    - AutomatID_OTML (= 3.0.8)
-    - AutomatID_OTMLCore (= 3.0.8)
-    - AutomatID_OTMLModels (= 3.0.8)
-    - AutomatID_OTNFCPassportReader (= 3.0.8)
-  - AutomatID_OTNFCPassportReader (3.0.8):
+  - AutomatID_OTMLNfcDocumentReaderModule (3.0.13):
+    - AutomatID_OTML (= 3.0.13)
+    - AutomatID_OTMLCore (= 3.0.13)
+    - AutomatID_OTMLModels (= 3.0.13)
     - OpenSSL-Universal (= 1.1.180)
-  - AutomatID_OTTBXML (3.0.8)
+  - AutomatID_OTTBXML (3.0.13)
   - DYCoding (1.0)
   - Firebase/Core (10.29.0):
     - Firebase/CoreOnly
@@ -222,7 +219,6 @@ SPEC REPOS:
     - AutomatID_OTMLModels
     - AutomatID_OTMLMRZReaderAddon
     - AutomatID_OTMLNfcDocumentReaderModule
-    - AutomatID_OTNFCPassportReader
     - AutomatID_OTTBXML
   https://github.com/CocoaPods/Specs.git:
     - DYCoding
@@ -260,15 +256,14 @@ SPEC REPOS:
     - ZXingObjC
 
 SPEC CHECKSUMS:
-  AutomatID: 234e6b40f874d74f6bc88419a0c0cf3bb9ff457e
-  AutomatID_OTML: 778018301df77ef50a7bb0e2208fadd72dafab5a
-  AutomatID_OTMLCore: 3e479b8264cfdda56a60378531733946d255ff2d
-  AutomatID_OTMLFaceRecognitionAddon: 8fbe99fcf6f3c89774872608f94aa672ed2d1656
-  AutomatID_OTMLModels: 6a0cb6566c1b3e23790fbd88ff62bbc2f6e1c47c
-  AutomatID_OTMLMRZReaderAddon: af043e44de94b385388c4f4aa03c196c3a1ef208
-  AutomatID_OTMLNfcDocumentReaderModule: a94af3a07adc0641b6084c98981e928344f5b7a5
-  AutomatID_OTNFCPassportReader: 70da5c81e2f72cdda510f769e8ac0a96210e3605
-  AutomatID_OTTBXML: 3cac8563a1ddf252ba7c271e1f012814d3bedb32
+  AutomatID: 4fe70e180ac8eb4dd3c4fb7cd195b2a32205cd5a
+  AutomatID_OTML: 421f1f89615bcf5ef25313e8910891c410c8282c
+  AutomatID_OTMLCore: 080c11cfc6ada3c3ee149e9f40a6e80a36d5b176
+  AutomatID_OTMLFaceRecognitionAddon: 187d86dc051e4ae55dcef1255c5b6c7102b20a47
+  AutomatID_OTMLModels: 3bb85d5bf90116d02969073e7468d7894c12a82e
+  AutomatID_OTMLMRZReaderAddon: 1db12a62588752cc0e1f0b5a71d5f1e79eff64fa
+  AutomatID_OTMLNfcDocumentReaderModule: 95eb9ea13c6dbb0f29a084a4ac004698fd9fd960
+  AutomatID_OTTBXML: b48d39bec395676e25d1e430d9abddca1cd19623
   DYCoding: d598c00d5900fe069faae3f4002bbf1479f699a1
   Firebase: cec914dab6fd7b1bd8ab56ea07ce4e03dd251c2d
   FirebaseAnalytics: 23717de130b779aa506e757edb9713d24b6ffeda
@@ -303,6 +298,6 @@ SPEC CHECKSUMS:
   TOCropViewController: edfd4f25713d56905ad1e0b9f5be3fbe0f59c863
   ZXingObjC: fdbb269f25dd2032da343e06f10224d62f537bdb
 
-PODFILE CHECKSUM: 3cf7d713148934e3b8c024ea488c401b33455656
+PODFILE CHECKSUM: 872d0011c80fb03cdcfe0d2060f681f425be8c5b
 
 COCOAPODS: 1.16.2
