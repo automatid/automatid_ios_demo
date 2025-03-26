@@ -57,6 +57,7 @@
     configuration.buttonFontRegular = regularFont;
     configuration.buttonFontMedium = mediumFont;
 
+    configuration.photoProcessingMode = AutomatIDPhotoProcessingMode_READ_NFC_PHOTO_AND_PERFORM_LIVENESS_CHECK;
 
     BOOL done = [AutomatIDManager configureWithFile:path
                                   withConfiguration:configuration
