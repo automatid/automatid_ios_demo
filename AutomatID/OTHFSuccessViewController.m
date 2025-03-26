@@ -7,7 +7,7 @@
 //
 
 #import "OTHFSuccessViewController.h"
-#import <AutomatID_OTMLCore/OTMPBase64.h>
+#import <AutomatID_OTMLCore/AutomatID_OTMPBase64.h>
 
 
 @interface OTHFSuccessViewController ()
@@ -72,7 +72,7 @@
     NSArray* splitted = [aJWT componentsSeparatedByString:@"."];
     NSString* middleElement = splitted[1];
     middleElement = [self base64urlToBase64:middleElement];
-    NSData* clearELement = [OTMPBase64 dataOfBase64String:middleElement];
+    NSData* clearELement = [AutomatID_OTMPBase64 dataOfBase64String:middleElement];
     NSError* err = nil;
     NSDictionary* jsonELement = [NSJSONSerialization JSONObjectWithData:clearELement options:NSJSONReadingMutableLeaves error:&err];
     NSInteger toReturn = -1;
