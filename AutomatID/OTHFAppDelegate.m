@@ -10,9 +10,11 @@
 #import "ProjectConfigurationAutomatID_DEMO_IOS.h"
 
 @import FirebaseCore;
+@import AutomatID_OTMLCore;
 @import AVFoundation;
 
 @import AutomatID;
+
 
 @implementation OTHFAppDelegate
 
@@ -24,7 +26,7 @@
     
     NSBundle *amazingBundle = [NSBundle bundleForClass:[self class]];
     NSString * path = [amazingBundle.bundlePath stringByAppendingPathComponent:@"Licenses"];
-    path = [path stringByAppendingPathComponent:OMVLICENSE];
+    path = [path stringByAppendingPathComponent:AUTOMATID_LICENSE];
     path = [path stringByAppendingString:@".sci"];
     
     NSLog(@"Loading config file: %@", path);
@@ -45,6 +47,7 @@
     UIFont* regularFont = [UIFont fontWithName:@"Montserrat-Regular" size:12]; // size is overridden, same Font is shown at different sizes
     UIFont* mediumFont = [UIFont fontWithName:@"Montserrat-Medium" size:12]; // size is overridden, same Font is shown at different sizes
     UIFont* boldFont = [UIFont fontWithName:@"Montserrat-Bold" size:12]; // size is overridden, same Font is shown at different sizes
+    
     configuration.defaultFontRegular = regularFont;
     configuration.defaultFontMedium = mediumFont;
     configuration.defaultFontBold = boldFont;
@@ -57,7 +60,8 @@
     configuration.buttonFontRegular = regularFont;
     configuration.buttonFontMedium = mediumFont;
 
-    configuration.photoProcessingMode = AutomatIDPhotoProcessingMode_READ_NFC_PHOTO_AND_PERFORM_LIVENESS_CHECK;
+    configuration.darkStatusBarIcons = NO;
+
 
     BOOL done = [AutomatIDManager configureWithFile:path
                                   withConfiguration:configuration

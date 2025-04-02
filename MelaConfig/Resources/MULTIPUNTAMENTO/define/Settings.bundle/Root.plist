@@ -39,17 +39,11 @@
 			<array>
 				<integer>0</integer>
 				<integer>1</integer>
-				<integer>2</integer>
-				<integer>3</integer>
-				<integer>4</integer>
 			</array>
 			<key>Titles</key>
 			<array>
-				<string>dev</string>
 				<string>prod</string>
-				<string>pre</string>
-				<string>util</string>
-				<string>ot-internal</string>
+				<string>dev</string>
 			</array>
 		</dict>
 	</array>

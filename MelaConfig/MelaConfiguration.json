@@ -9,10 +9,9 @@
     {
       "label" : "->SCI License file<-",
       "hint" : "SCI License to be used",
-      "name" : "OMVLICENSE",
+      "name" : "AUTOMATID_LICENSE",
       "type" : "define_value",
       "values" : {
-        "docker" : "@\"sci-demoapp-dev-ios\"",
         "multi" : "@\"sci-demoapp-multi-ios\"",
       	"prod" : "@\"sci-demoapp-prod-ios\""
       }
