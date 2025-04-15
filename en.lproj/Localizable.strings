@@ -31,6 +31,9 @@
 "error_management_body2_abort" = "Whenever an error occurs (e.g.: problems while reading a document or during the liveness check) the AutomatID™ flow will be closed.";
 "error_management_btn_done" = "Done";
 
+"photo_mode_title" = "Elaborazione della foto (TT)";
+"photo_mode_body" = "Letura tramite NFC e liveness check (TT)";
+
 "id_methods_title" = "Identification Methods";
 "id_methods_body1" = "What identification methods do you want to try? (Turn on at least one).";
 "id_methods_passport" = "Electronic Passport";

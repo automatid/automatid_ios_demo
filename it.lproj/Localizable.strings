@@ -37,6 +37,9 @@
 "error_management_body2_abort" = "Nel caso in cui dovesse verificarsi un errore (ad esempio: problemi durante la lettura di un documento o durante i controlli di liveness) il flusso di riconoscimento AutomatID™ mostrerà un messaggio di errore everrà chiuso.";
 "error_management_btn_done" = "Fatto";
 
+"photo_mode_title" = "Elaborazione della foto (TT)";
+"photo_mode_body" = "Letura tramite NFC e liveness check (TT)";
+
 "id_methods_title" = "Metodi di identificazione";
 "id_methods_body1" = "Quali metodi di identificazione vuoi abilitare? (Selezionane almeno uno).";
 "id_methods_passport" = "Passaporto elettronico";
