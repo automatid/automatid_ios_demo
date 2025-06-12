@@ -19,10 +19,10 @@
 "tc_title" = "AutomatID™ Privacy policy";
 "tc_btn_accept" = "Accept and Continue";
 
-"issuing_authority_authenticity" = "Autenticità dell'ente emittente";
-"document_data_integrity" = "Integrità dei dati del documento";
+"issuing_authority_authenticity" = "Issuing authority authenticity";
+"document_data_integrity" = "Document data integrity";
 "liveness_check" = "Liveness check";
-"face_comparison_matching" = "Corrispondenza del volto";
+"face_comparison_matching" = "Face comparison matching";
 
 "error_management_title" = "Error Management";
 "error_management_body1" = "Choose how you want errors handled during the identification process.";
