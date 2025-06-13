@@ -38,7 +38,7 @@
     self.animationView.animation = @"sci_demo_app_landing_animation";
     [self.animationView play];
 
-    [self mockResultScreen];
+//    [self mockResultScreen];
 //    [self mockErrorScreen];
 }
 

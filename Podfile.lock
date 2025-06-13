@@ -1,41 +1,41 @@
 PODS:
-  - AutomatID (3.0.38):
-    - AutomatID_OTML (= 3.0.38)
-    - AutomatID_OTMLCore (= 3.0.38)
-    - AutomatID_OTMLFaceRecognitionAddon (= 3.0.38)
-    - AutomatID_OTMLModels (= 3.0.38)
-    - AutomatID_OTMLMRZReaderAddon (= 3.0.38)
-    - AutomatID_OTMLNfcDocumentReaderModule (= 3.0.38)
-  - AutomatID_OTML (3.0.38):
-    - AutomatID_OTMLCore (= 3.0.38)
-    - AutomatID_OTMLModels (= 3.0.38)
-    - AutomatID_OTTBXML (= 3.0.38)
+  - AutomatID (3.0.40):
+    - AutomatID_OTML (= 3.0.40)
+    - AutomatID_OTMLCore (= 3.0.40)
+    - AutomatID_OTMLFaceRecognitionAddon (= 3.0.40)
+    - AutomatID_OTMLModels (= 3.0.40)
+    - AutomatID_OTMLMRZReaderAddon (= 3.0.40)
+    - AutomatID_OTMLNfcDocumentReaderModule (= 3.0.40)
+  - AutomatID_OTML (3.0.40):
+    - AutomatID_OTMLCore (= 3.0.40)
+    - AutomatID_OTMLModels (= 3.0.40)
+    - AutomatID_OTTBXML (= 3.0.40)
     - DYCoding (= 1.0)
     - libPhoneNumber-iOS (= 0.9.15)
     - lottie-ios (= 2.5.3)
     - TOCropViewController (= 2.6.1)
     - ZXingObjC (= 3.6.5)
-  - AutomatID_OTMLCore (3.0.38):
+  - AutomatID_OTMLCore (3.0.40):
     - SAMKeychain
-  - AutomatID_OTMLFaceRecognitionAddon (3.0.38):
-    - AutomatID_OTML (= 3.0.38)
-    - AutomatID_OTMLCore (= 3.0.38)
-    - AutomatID_OTMLModels (= 3.0.38)
-    - GoogleMLKit/FaceDetection
-  - AutomatID_OTMLModels (3.0.38):
-    - AutomatID_OTTBXML (= 3.0.38)
-  - AutomatID_OTMLMRZReaderAddon (3.0.38):
-    - AutomatID_OTML (= 3.0.38)
-    - AutomatID_OTMLCore (= 3.0.38)
-    - AutomatID_OTMLModels (= 3.0.38)
+  - AutomatID_OTMLFaceRecognitionAddon (3.0.40):
+    - AutomatID_OTML (= 3.0.40)
+    - AutomatID_OTMLCore (= 3.0.40)
+    - AutomatID_OTMLModels (= 3.0.40)
+    - GoogleMLKit/FaceDetection (~> 6)
+  - AutomatID_OTMLModels (3.0.40):
+    - AutomatID_OTTBXML (= 3.0.40)
+  - AutomatID_OTMLMRZReaderAddon (3.0.40):
+    - AutomatID_OTML (= 3.0.40)
+    - AutomatID_OTMLCore (= 3.0.40)
+    - AutomatID_OTMLModels (= 3.0.40)
     - GoogleMLKit/TextRecognition
     - GPUImage
-  - AutomatID_OTMLNfcDocumentReaderModule (3.0.38):
-    - AutomatID_OTML (= 3.0.38)
-    - AutomatID_OTMLCore (= 3.0.38)
-    - AutomatID_OTMLModels (= 3.0.38)
+  - AutomatID_OTMLNfcDocumentReaderModule (3.0.40):
+    - AutomatID_OTML (= 3.0.40)
+    - AutomatID_OTMLCore (= 3.0.40)
+    - AutomatID_OTMLModels (= 3.0.40)
     - OpenSSL-Universal (~> 1.1)
-  - AutomatID_OTTBXML (3.0.38)
+  - AutomatID_OTTBXML (3.0.40)
   - DYCoding (1.0)
   - Firebase/Core (10.29.0):
     - Firebase/CoreOnly
@@ -256,14 +256,14 @@ SPEC REPOS:
     - ZXingObjC
 
 SPEC CHECKSUMS:
-  AutomatID: 497f01c678e1c501050ba15f520120e40e161b8e
-  AutomatID_OTML: 3a3f20165a136406b2a034f3d01b76d3c067652a
-  AutomatID_OTMLCore: b3988ed7b909486c989288c79e40ae17432c5cc8
-  AutomatID_OTMLFaceRecognitionAddon: 27eeee89cf553e58f951296a66c7a29a114fe1c1
-  AutomatID_OTMLModels: 5d95326e559bcf400328077cbb5b33c8fdd1a84b
-  AutomatID_OTMLMRZReaderAddon: 7dfad2dbc048428ebf54d21f2b701585d58c25d9
-  AutomatID_OTMLNfcDocumentReaderModule: 643faf3f0e9b59e7f6f16b0380d43a22d8beef37
-  AutomatID_OTTBXML: 9b6fe344556c72dbb22c7eaa66d0f251dd324913
+  AutomatID: a0b86cda41686c9013c5959d8c02e8a357521987
+  AutomatID_OTML: 9353bcebb1c210ffdb7cd2f9586f35e994897f9e
+  AutomatID_OTMLCore: 17fee1e4dad014e45363c1021ae825f68dcce5a6
+  AutomatID_OTMLFaceRecognitionAddon: 08f8609abec088ebdab5d353dc994b900c69e54c
+  AutomatID_OTMLModels: 5091f890c6e3a87fa0a2027b2004f78fe30597f5
+  AutomatID_OTMLMRZReaderAddon: fff724df50b2339629d2cde0585f0e6bb443173f
+  AutomatID_OTMLNfcDocumentReaderModule: 7dd1db94381784c6a1dd96f3d801c3dd2e5487a8
+  AutomatID_OTTBXML: 3258d66bb6eddda52a4b13d4aec2b9acc7f5e670
   DYCoding: d598c00d5900fe069faae3f4002bbf1479f699a1
   Firebase: cec914dab6fd7b1bd8ab56ea07ce4e03dd251c2d
   FirebaseAnalytics: 23717de130b779aa506e757edb9713d24b6ffeda
@@ -298,6 +298,6 @@ SPEC CHECKSUMS:
   TOCropViewController: edfd4f25713d56905ad1e0b9f5be3fbe0f59c863
   ZXingObjC: fdbb269f25dd2032da343e06f10224d62f537bdb
 
-PODFILE CHECKSUM: c5350506b37fe95749feb52a5a6e9e62aa1b5565
+PODFILE CHECKSUM: 3ae3fbb92e83cf7f962dfa6b666307ab11189ea6
 
 COCOAPODS: 1.16.2
