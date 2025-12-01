@@ -1,11 +1,3 @@
-/* 
-  Localizable.strings
-  AutomatID
-
-  Created by Silvio D'Angelo on 24/10/22.
-  Copyright © 2022 opentech.com. All rights reserved.
-*/
-
 "feedback_btn_close" = "Fertig";
 "feedback_share_jwt" = "Teilen Sie JWT -Token";
 "feedback_body_success" = "Ihre Identität wurde erfolgreich überprüft.\nWir haben ein JWT-Token generiert, das das Ergebnis dieser Identifizierung enthält.";
@@ -20,6 +12,11 @@
 
 "tc_title" = "AutomatID™ -Nealbedingungen und Bedingungen";
 "tc_btn_accept" = "Akzeptieren und weiter";
+
+"issuing_authority_authenticity" = "Echtheit der ausstellenden Behörde";
+"document_data_integrity" = "Integrität der Dokumentendaten";
+"liveness_check" = "Gesichtserkennung";
+"face_comparison_matching" = "Gesichtserkennungsgenauigkeit";
 
 "error_management_title" = "Fehlerverwaltung";
 "error_management_body1" = "Wählen Sie, wie Sie während des Identifizierungsprozesses Fehler erwarten möchten.";

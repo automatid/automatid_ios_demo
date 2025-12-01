@@ -150,6 +150,10 @@
     };
     
     AutomatIDRequest* request = [AutomatIDRequest requestWithDocumentTypes:docTypes];
+
+    NSLocale* locale = [NSLocale currentLocale];
+
+    request.locale = locale;
     [AutomatIDManager startIdentificationWithRequest:request andCompletion:callback];
 }
 
