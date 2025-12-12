@@ -20,7 +20,5 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // Confirm the scene is a window scene in iOS or iPadOS.
         guard let windowScene = scene as? UIWindowScene else { return }
 
-        let win: UIWindow = UIWindow(windowScene: windowScene)
-        window = win
     }
 }
