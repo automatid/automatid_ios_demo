@@ -1,42 +1,37 @@
 PODS:
-  - AutomatID (4.0.2):
-    - AutomatID_OTML (= 4.0.2)
-    - AutomatID_OTMLCore (= 4.0.2)
-    - AutomatID_OTMLFaceRecognitionAddon (= 4.0.2)
-    - AutomatID_OTMLModels (= 4.0.2)
-    - AutomatID_OTMLMRZReaderAddon (= 4.0.2)
-    - AutomatID_OTMLNfcDocumentReaderModule (= 4.0.2)
-  - AutomatID_OTML (4.0.2):
-    - AutomatID_OTMLCore (= 4.0.2)
-    - AutomatID_OTMLModels (= 4.0.2)
-    - AutomatID_OTTBXML (= 4.0.2)
-    - DYCoding (= 1.0)
-    - libPhoneNumber-iOS (= 0.9.15)
+  - AutomatID (4.0.3):
+    - AutomatID_OTML (= 4.0.3)
+    - AutomatID_OTMLCore (= 4.0.3)
+    - AutomatID_OTMLFaceRecognitionAddon (= 4.0.3)
+    - AutomatID_OTMLModels (= 4.0.3)
+    - AutomatID_OTMLMRZReaderAddon (= 4.0.3)
+    - AutomatID_OTMLNfcDocumentReaderModule (= 4.0.3)
+  - AutomatID_OTML (4.0.3):
+    - AutomatID_OTMLCore (= 4.0.3)
+    - AutomatID_OTMLModels (= 4.0.3)
+    - AutomatID_OTTBXML (= 4.0.3)
     - lottie-ios (= 2.5.3)
-    - TOCropViewController (= 2.6.1)
-    - ZXingObjC (= 3.6.5)
-  - AutomatID_OTMLCore (4.0.2):
+  - AutomatID_OTMLCore (4.0.3):
     - SAMKeychain
-  - AutomatID_OTMLFaceRecognitionAddon (4.0.2):
-    - AutomatID_OTML (= 4.0.2)
-    - AutomatID_OTMLCore (= 4.0.2)
-    - AutomatID_OTMLModels (= 4.0.2)
+  - AutomatID_OTMLFaceRecognitionAddon (4.0.3):
+    - AutomatID_OTML (= 4.0.3)
+    - AutomatID_OTMLCore (= 4.0.3)
+    - AutomatID_OTMLModels (= 4.0.3)
     - GoogleMLKit/FaceDetection (~> 6)
-  - AutomatID_OTMLModels (4.0.2):
-    - AutomatID_OTTBXML (= 4.0.2)
-  - AutomatID_OTMLMRZReaderAddon (4.0.2):
-    - AutomatID_OTML (= 4.0.2)
-    - AutomatID_OTMLCore (= 4.0.2)
-    - AutomatID_OTMLModels (= 4.0.2)
+  - AutomatID_OTMLModels (4.0.3):
+    - AutomatID_OTTBXML (= 4.0.3)
+  - AutomatID_OTMLMRZReaderAddon (4.0.3):
+    - AutomatID_OTML (= 4.0.3)
+    - AutomatID_OTMLCore (= 4.0.3)
+    - AutomatID_OTMLModels (= 4.0.3)
     - GoogleMLKit/TextRecognition
     - GPUImage
-  - AutomatID_OTMLNfcDocumentReaderModule (4.0.2):
-    - AutomatID_OTML (= 4.0.2)
-    - AutomatID_OTMLCore (= 4.0.2)
-    - AutomatID_OTMLModels (= 4.0.2)
+  - AutomatID_OTMLNfcDocumentReaderModule (4.0.3):
+    - AutomatID_OTML (= 4.0.3)
+    - AutomatID_OTMLCore (= 4.0.3)
+    - AutomatID_OTMLModels (= 4.0.3)
     - OpenSSL-Universal (~> 1.1)
-  - AutomatID_OTTBXML (4.0.2)
-  - DYCoding (1.0)
+  - AutomatID_OTTBXML (4.0.3)
   - Firebase/Core (10.29.0):
     - Firebase/CoreOnly
     - FirebaseAnalytics (~> 10.29.0)
@@ -164,7 +159,6 @@ PODS:
     - GoogleUtilities/Logger
   - GPUImage (0.1.7)
   - GTMSessionFetcher/Core (3.5.0)
-  - libPhoneNumber-iOS (0.9.15)
   - lottie-ios (2.5.3)
   - MLImage (1.0.0-beta5)
   - MLKitCommon (11.0.0):
@@ -200,10 +194,6 @@ PODS:
   - PromisesSwift (2.4.0):
     - PromisesObjC (= 2.4.0)
   - SAMKeychain (1.5.3)
-  - TOCropViewController (2.6.1)
-  - ZXingObjC (3.6.5):
-    - ZXingObjC/All (= 3.6.5)
-  - ZXingObjC/All (3.6.5)
 
 DEPENDENCIES:
   - AutomatID
@@ -221,7 +211,6 @@ SPEC REPOS:
     - AutomatID_OTMLNfcDocumentReaderModule
     - AutomatID_OTTBXML
   https://github.com/CocoaPods/Specs.git:
-    - DYCoding
     - Firebase
     - FirebaseAnalytics
     - FirebaseCore
@@ -239,7 +228,6 @@ SPEC REPOS:
     - GoogleUtilitiesComponents
     - GPUImage
     - GTMSessionFetcher
-    - libPhoneNumber-iOS
     - lottie-ios
     - MLImage
     - MLKitCommon
@@ -252,19 +240,16 @@ SPEC REPOS:
     - PromisesObjC
     - PromisesSwift
     - SAMKeychain
-    - TOCropViewController
-    - ZXingObjC
 
 SPEC CHECKSUMS:
-  AutomatID: d0c90791d1ef97dc586148d78d23cfd202bdd906
-  AutomatID_OTML: 8b2b8a169742674e7434f5dd3a46b335a44e8d8d
-  AutomatID_OTMLCore: 820da787209fe2aa64fc42e8ea21946a5c1ec9cb
-  AutomatID_OTMLFaceRecognitionAddon: a00ed140ef01c6632effa08dc00a027d731327ce
-  AutomatID_OTMLModels: 7277e848533bc49673a5892054f490aad9e2798f
-  AutomatID_OTMLMRZReaderAddon: bfa0c8336f1bee5339ceb05e756dec1c1562c838
-  AutomatID_OTMLNfcDocumentReaderModule: 33ba002681b86074efdfafb37d49384e7ec78c64
-  AutomatID_OTTBXML: 5d09eef9e69ad0f509da5a656ebe60917d6527be
-  DYCoding: d598c00d5900fe069faae3f4002bbf1479f699a1
+  AutomatID: eb235b2b14a1ad8ddcd93298c7a3adca1d9daf89
+  AutomatID_OTML: d7f3804a1fe247f678ad6430c2fe133545fb33db
+  AutomatID_OTMLCore: b7c46ddba505a107e025fcdc06fb22ea87c556f4
+  AutomatID_OTMLFaceRecognitionAddon: dfb91af9c1eb96c8f325309e39755ef3dc188ab8
+  AutomatID_OTMLModels: d55c87d4c0792cd764d8af0a177cdcdf69c9cb78
+  AutomatID_OTMLMRZReaderAddon: 24189ced212701f36b35c7d611271708e82dc2ed
+  AutomatID_OTMLNfcDocumentReaderModule: c3483e820e4febc4e6678ba3d234782cf53bc695
+  AutomatID_OTTBXML: dc788d243a3c7f4eb86b80e33a5229cd7c2b1ccb
   Firebase: cec914dab6fd7b1bd8ab56ea07ce4e03dd251c2d
   FirebaseAnalytics: 23717de130b779aa506e757edb9713d24b6ffeda
   FirebaseCore: 30e9c1cbe3d38f5f5e75f48bfcea87d7c358ec16
@@ -282,7 +267,6 @@ SPEC CHECKSUMS:
   GoogleUtilitiesComponents: 679b2c881db3b615a2777504623df6122dd20afe
   GPUImage: 733a5f0fab92df9de1c37ba9df520a833ccb406d
   GTMSessionFetcher: 5aea5ba6bd522a239e236100971f10cb71b96ab6
-  libPhoneNumber-iOS: 0a32a9525cf8744fe02c5206eb30d571e38f7d75
   lottie-ios: a50d5c0160425cd4b01b852bb9578963e6d92d31
   MLImage: 1824212150da33ef225fbd3dc49f184cf611046c
   MLKitCommon: afec63980417d29ffbb4790529a1b0a2291699e1
@@ -295,8 +279,6 @@ SPEC CHECKSUMS:
   PromisesObjC: f5707f49cb48b9636751c5b2e7d227e43fba9f47
   PromisesSwift: 9d77319bbe72ebf6d872900551f7eeba9bce2851
   SAMKeychain: 483e1c9f32984d50ca961e26818a534283b4cd5c
-  TOCropViewController: edfd4f25713d56905ad1e0b9f5be3fbe0f59c863
-  ZXingObjC: fdbb269f25dd2032da343e06f10224d62f537bdb
 
 PODFILE CHECKSUM: 3ae3fbb92e83cf7f962dfa6b666307ab11189ea6
 

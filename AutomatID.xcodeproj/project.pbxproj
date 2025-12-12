@@ -18,6 +18,7 @@
 		2361FE342923EBF500F7CA86 /* AutomatIDPressableButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 2361FE332923EBF500F7CA86 /* AutomatIDPressableButton.m */; };
 		2361FE372923EC1900F7CA86 /* AutomatIDSubtitledButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 2361FE362923EC1900F7CA86 /* AutomatIDSubtitledButton.m */; };
 		2361FE3A2923ED9500F7CA86 /* AutomatIDLocalizedLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2361FE392923ED9500F7CA86 /* AutomatIDLocalizedLabel.swift */; };
+		237118402EEC32F9005D73F8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2371183F2EEC32F9005D73F8 /* SceneDelegate.swift */; };
 		2376DAA52BA43DA900CC32BC /* OTHFSuccessViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2376DAA42BA43DA900CC32BC /* OTHFSuccessViewController.m */; };
 		23963AEA2A9CF4A6002DE38D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 23963AE92A9CF4A6002DE38D /* GoogleService-Info.plist */; };
 		23A358EC29254B6400D0E552 /* sci_demo_app_landing_animation.json in Resources */ = {isa = PBXBuildFile; fileRef = 23A358EB29254B6400D0E552 /* sci_demo_app_landing_animation.json */; };
@@ -56,6 +57,7 @@
 		2361FE362923EC1900F7CA86 /* AutomatIDSubtitledButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AutomatIDSubtitledButton.m; sourceTree = "<group>"; };
 		2361FE382923ED9400F7CA86 /* AutomatID_Example-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AutomatID_Example-Bridging-Header.h"; sourceTree = "<group>"; };
 		2361FE392923ED9500F7CA86 /* AutomatIDLocalizedLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutomatIDLocalizedLabel.swift; sourceTree = "<group>"; };
+		2371183F2EEC32F9005D73F8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		2372DF382886FC07009F213A /* Montserrat-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Montserrat-Bold.ttf"; path = "CustomFonts/Montserrat-Bold.ttf"; sourceTree = "<group>"; };
 		2372DF392886FC07009F213A /* Montserrat-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Montserrat-Medium.ttf"; path = "CustomFonts/Montserrat-Medium.ttf"; sourceTree = "<group>"; };
 		2372DF3A2886FC07009F213A /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Montserrat-Regular.ttf"; path = "CustomFonts/Montserrat-Regular.ttf"; sourceTree = "<group>"; };
@@ -192,6 +194,7 @@
 		BF22716D27FF3216006D98A5 /* AutomatID */ = {
 			isa = PBXGroup;
 			children = (
+				2371183F2EEC32F9005D73F8 /* SceneDelegate.swift */,
 				23963AE92A9CF4A6002DE38D /* GoogleService-Info.plist */,
 				2372DF382886FC07009F213A /* Montserrat-Bold.ttf */,
 				2372DF392886FC07009F213A /* Montserrat-Medium.ttf */,
@@ -368,7 +371,6 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-AutomatID_Example/Pods-AutomatID_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/DYCoding/DYCoding.framework",
 				"${BUILT_PRODUCTS_DIR}/FirebaseCore/FirebaseCore.framework",
 				"${BUILT_PRODUCTS_DIR}/FirebaseCoreExtension/FirebaseCoreExtension.framework",
 				"${BUILT_PRODUCTS_DIR}/FirebaseCoreInternal/FirebaseCoreInternal.framework",
@@ -384,16 +386,12 @@
 				"${BUILT_PRODUCTS_DIR}/PromisesObjC/FBLPromises.framework",
 				"${BUILT_PRODUCTS_DIR}/PromisesSwift/Promises.framework",
 				"${BUILT_PRODUCTS_DIR}/SAMKeychain/SAMKeychain.framework",
-				"${BUILT_PRODUCTS_DIR}/TOCropViewController/TOCropViewController.framework",
-				"${BUILT_PRODUCTS_DIR}/ZXingObjC/ZXingObjC.framework",
-				"${BUILT_PRODUCTS_DIR}/libPhoneNumber-iOS/libPhoneNumber_iOS.framework",
 				"${BUILT_PRODUCTS_DIR}/lottie-ios/Lottie.framework",
 				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 				"${PODS_XCFRAMEWORKS_BUILD_DIR}/OpenSSL-Universal/OpenSSL.framework/OpenSSL",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DYCoding.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FirebaseCore.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FirebaseCoreExtension.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FirebaseCoreInternal.framework",
@@ -409,9 +407,6 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBLPromises.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Promises.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SAMKeychain.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TOCropViewController.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ZXingObjC.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/libPhoneNumber_iOS.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Lottie.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/OpenSSL.framework",
@@ -481,6 +476,7 @@
 				BFEBF91127FF358400B6AE38 /* OTHFAppDelegate.m in Sources */,
 				2376DAA52BA43DA900CC32BC /* OTHFSuccessViewController.m in Sources */,
 				2361FE372923EC1900F7CA86 /* AutomatIDSubtitledButton.m in Sources */,
+				237118402EEC32F9005D73F8 /* SceneDelegate.swift in Sources */,
 				BFEBF91027FF357F00B6AE38 /* OTHFViewController.m in Sources */,
 				AAF5E573211355A100536F7F /* main.m in Sources */,
 				232D9D172902946900EECF83 /* OTHFTermsAndConditionsViewController.m in Sources */,
@@ -612,7 +608,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = NO;
 				GCC_PREFIX_HEADER = "AutomatID/AutomatID-Prefix.pch";
 				INFOPLIST_FILE = "AutomatID/Base.lproj/AutomatID-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				ONLY_ACTIVE_ARCH = YES;
@@ -648,7 +644,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = NO;
 				GCC_PREFIX_HEADER = "AutomatID/AutomatID-Prefix.pch";
 				INFOPLIST_FILE = "AutomatID/Base.lproj/AutomatID-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = com.opentech.automatid.demoapp;
