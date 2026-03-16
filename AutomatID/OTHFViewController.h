@@ -7,7 +7,9 @@
 //
 
 @import UIKit;
-@import Lottie;
+
+
+@class HostingappLottieViewWrapper; 
 
 @interface OTHFViewController : UIViewController
 
@@ -16,7 +18,7 @@
 @property (weak, nonatomic) IBOutlet UILabel *subTitleLabel;
 @property (weak, nonatomic) IBOutlet UILabel *extendedTextLabel;
 @property (weak, nonatomic) IBOutlet UIButton *startPluginButton;
-@property (weak, nonatomic) IBOutlet LOTAnimationView *animationView;
+@property (weak, nonatomic) IBOutlet HostingappLottieViewWrapper *animationView;
 
 @property (weak, nonatomic) IBOutlet UILabel *dataSecurityLabel;
 

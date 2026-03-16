@@ -67,8 +67,7 @@
     self.extendedTextShouldRetry2.text = NSLocalizedString(placeholer, @"");
     
     NSString* lottieFileName = @"sci_demo_app_feedback_settings";
-    [self.animationView setAnimation:lottieFileName];
-
+    [self.animationView setAnimationWithFileName:lottieFileName];
     self.view.layer.borderWidth = 2;
     [self.animationView play];
 

@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@import Lottie;
+#import <AutomatID_Example-Swift.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -53,7 +53,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property (weak, nonatomic) IBOutlet UIImageView *backgroundPanel;
 @property (weak, nonatomic) IBOutlet UIImageView *backgroundErrorPanel;
-@property (weak, nonatomic) IBOutlet LOTAnimationView *animationView;
+@property (weak, nonatomic) IBOutlet HostingappLottieViewWrapper *animationView;
 
 @end
 

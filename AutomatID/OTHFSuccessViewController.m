@@ -25,7 +25,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
 
-    [self.animationView setAnimation:self.animationToPlay];
+    [self.animationView setAnimationWithFileName:self.animationToPlay];
 
 
     UIFont * _Nullable bigFont = [UIFont fontWithName:@"Montserrat-Bold" size:18];

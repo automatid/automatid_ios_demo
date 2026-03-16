@@ -8,7 +8,8 @@
 
 #import <UIKit/UIKit.h>
 @import AutomatID;
-@import Lottie;
+
+#import <AutomatID_Example-Swift.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -19,7 +20,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (weak, nonatomic) IBOutlet UILabel *feedbackLabel;
 @property (weak, nonatomic) IBOutlet UIButton *doneButton;
 @property (weak, nonatomic) IBOutlet UIButton *shareJWTButton;
-@property (weak, nonatomic) IBOutlet LOTAnimationView *animationView;
+@property (weak, nonatomic) IBOutlet HostingappLottieViewWrapper *animationView;
 
 -(void) showError:(AutomatIDResultError*) result;
 

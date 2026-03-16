@@ -1,37 +1,37 @@
 PODS:
-  - AutomatID (4.0.6):
-    - AutomatID_OTML (= 4.0.6)
-    - AutomatID_OTMLCore (= 4.0.6)
-    - AutomatID_OTMLFaceRecognitionAddon (= 4.0.6)
-    - AutomatID_OTMLModels (= 4.0.6)
-    - AutomatID_OTMLMRZReaderAddon (= 4.0.6)
-    - AutomatID_OTMLNfcDocumentReaderModule (= 4.0.6)
-  - AutomatID_OTML (4.0.6):
-    - AutomatID_OTMLCore (= 4.0.6)
-    - AutomatID_OTMLModels (= 4.0.6)
-    - AutomatID_OTTBXML (= 4.0.6)
-    - lottie-ios (= 2.5.3)
-  - AutomatID_OTMLCore (4.0.6):
+  - AutomatID (4.0.16):
+    - AutomatID_OTML (= 4.0.16)
+    - AutomatID_OTMLCore (= 4.0.16)
+    - AutomatID_OTMLFaceRecognitionAddon (= 4.0.16)
+    - AutomatID_OTMLModels (= 4.0.16)
+    - AutomatID_OTMLMRZReaderAddon (= 4.0.16)
+    - AutomatID_OTMLNfcDocumentReaderModule (= 4.0.16)
+  - AutomatID_OTML (4.0.16):
+    - AutomatID_OTMLCore (= 4.0.16)
+    - AutomatID_OTMLModels (= 4.0.16)
+    - AutomatID_OTTBXML (= 4.0.16)
+    - lottie-ios (~> 4)
+  - AutomatID_OTMLCore (4.0.16):
     - SAMKeychain
-  - AutomatID_OTMLFaceRecognitionAddon (4.0.6):
-    - AutomatID_OTML (= 4.0.6)
-    - AutomatID_OTMLCore (= 4.0.6)
-    - AutomatID_OTMLModels (= 4.0.6)
+  - AutomatID_OTMLFaceRecognitionAddon (4.0.16):
+    - AutomatID_OTML (= 4.0.16)
+    - AutomatID_OTMLCore (= 4.0.16)
+    - AutomatID_OTMLModels (= 4.0.16)
     - GoogleMLKit/FaceDetection (~> 6)
-  - AutomatID_OTMLModels (4.0.6):
-    - AutomatID_OTTBXML (= 4.0.6)
-  - AutomatID_OTMLMRZReaderAddon (4.0.6):
-    - AutomatID_OTML (= 4.0.6)
-    - AutomatID_OTMLCore (= 4.0.6)
-    - AutomatID_OTMLModels (= 4.0.6)
+  - AutomatID_OTMLModels (4.0.16):
+    - AutomatID_OTTBXML (= 4.0.16)
+  - AutomatID_OTMLMRZReaderAddon (4.0.16):
+    - AutomatID_OTML (= 4.0.16)
+    - AutomatID_OTMLCore (= 4.0.16)
+    - AutomatID_OTMLModels (= 4.0.16)
     - GoogleMLKit/TextRecognition
     - GPUImage
-  - AutomatID_OTMLNfcDocumentReaderModule (4.0.6):
-    - AutomatID_OTML (= 4.0.6)
-    - AutomatID_OTMLCore (= 4.0.6)
-    - AutomatID_OTMLModels (= 4.0.6)
+  - AutomatID_OTMLNfcDocumentReaderModule (4.0.16):
+    - AutomatID_OTML (= 4.0.16)
+    - AutomatID_OTMLCore (= 4.0.16)
+    - AutomatID_OTMLModels (= 4.0.16)
     - OpenSSL-Universal (~> 1.1)
-  - AutomatID_OTTBXML (4.0.6)
+  - AutomatID_OTTBXML (4.0.16)
   - Firebase/Core (10.29.0):
     - Firebase/CoreOnly
     - FirebaseAnalytics (~> 10.29.0)
@@ -159,7 +159,7 @@ PODS:
     - GoogleUtilities/Logger
   - GPUImage (0.1.7)
   - GTMSessionFetcher/Core (3.5.0)
-  - lottie-ios (2.5.3)
+  - lottie-ios (4.6.0)
   - MLImage (1.0.0-beta5)
   - MLKitCommon (11.0.0):
     - GoogleDataTransport (< 10.0, >= 9.4.1)
@@ -197,8 +197,9 @@ PODS:
 
 DEPENDENCIES:
   - AutomatID
-  - Firebase/Core
-  - Firebase/Crashlytics
+  - Firebase/Core (= 10.29.0)
+  - Firebase/Crashlytics (= 10.29.0)
+  - lottie-ios (~> 4)
 
 SPEC REPOS:
   "git@github.com:automatid/automatid_specs.git":
@@ -242,14 +243,14 @@ SPEC REPOS:
     - SAMKeychain
 
 SPEC CHECKSUMS:
-  AutomatID: db87419a7c73f7dfed69846909e9edbac46a1efe
-  AutomatID_OTML: 795eb7506a35fdc549d74778da2100876ca5ceb8
-  AutomatID_OTMLCore: 4f60b303f8787a5b01baf5023660f2a4a7e99b59
-  AutomatID_OTMLFaceRecognitionAddon: ca354cb40c3c1e9a7f1685181c5a045794596826
-  AutomatID_OTMLModels: 0329c3aff20b2f198c1de07c00cc7def1e441382
-  AutomatID_OTMLMRZReaderAddon: e0b44df35c1808563063bbfc06f1f57ab55f65f9
-  AutomatID_OTMLNfcDocumentReaderModule: 5a60e2f7e6fa09c7f1bf5b817e1ca9b3a8509578
-  AutomatID_OTTBXML: e01c7819eae4c3132cdbe9da9998485bbb5afa31
+  AutomatID: d4dd5d96d518588a2efc42405d7511505ba3c863
+  AutomatID_OTML: bbc03f4f399ff9b62ca64495efb146861c46f469
+  AutomatID_OTMLCore: 5ef9f44d878f4d0afc221ab6c56bf19d2bd4fed7
+  AutomatID_OTMLFaceRecognitionAddon: a4a603d0699156efe256f2522ec4b52d2c5f58ab
+  AutomatID_OTMLModels: 8d7747d32d2f734495cb4d9bf8efe98334367b4f
+  AutomatID_OTMLMRZReaderAddon: a182c54f6a980a0d47c773cbc944140e79844fe9
+  AutomatID_OTMLNfcDocumentReaderModule: cc7e90f2b18e5dedba7ea5d1d3a4aab97e605d6a
+  AutomatID_OTTBXML: 615acfb18e41a2dc1ddfe37b5f9dd7c099379f1f
   Firebase: cec914dab6fd7b1bd8ab56ea07ce4e03dd251c2d
   FirebaseAnalytics: 23717de130b779aa506e757edb9713d24b6ffeda
   FirebaseCore: 30e9c1cbe3d38f5f5e75f48bfcea87d7c358ec16
@@ -267,7 +268,7 @@ SPEC CHECKSUMS:
   GoogleUtilitiesComponents: 679b2c881db3b615a2777504623df6122dd20afe
   GPUImage: 733a5f0fab92df9de1c37ba9df520a833ccb406d
   GTMSessionFetcher: 5aea5ba6bd522a239e236100971f10cb71b96ab6
-  lottie-ios: a50d5c0160425cd4b01b852bb9578963e6d92d31
+  lottie-ios: 8f959969761e9c45d70353667d00af0e5b9cadb3
   MLImage: 1824212150da33ef225fbd3dc49f184cf611046c
   MLKitCommon: afec63980417d29ffbb4790529a1b0a2291699e1
   MLKitFaceDetection: 7c0e8bf09ddd27105da32d088fca978a99fc30cc
@@ -280,6 +281,6 @@ SPEC CHECKSUMS:
   PromisesSwift: 9d77319bbe72ebf6d872900551f7eeba9bce2851
   SAMKeychain: 483e1c9f32984d50ca961e26818a534283b4cd5c
 
-PODFILE CHECKSUM: 3ae3fbb92e83cf7f962dfa6b666307ab11189ea6
+PODFILE CHECKSUM: 03ba3e7719072ac42b6633413c30f20ebaf80174
 
 COCOAPODS: 1.16.2

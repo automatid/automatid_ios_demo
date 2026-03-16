@@ -8,8 +8,9 @@ platform :ios, '15.0'
 
 target 'AutomatID_Example' do
   pod 'AutomatID'
-  pod 'Firebase/Core'
-  pod 'Firebase/Crashlytics'
+  pod 'lottie-ios', '~>4'
+  pod 'Firebase/Core', '10.29.0'
+  pod 'Firebase/Crashlytics', '10.29.0'
 end
 
 post_install do |installer|
@@ -18,6 +19,7 @@ post_install do |installer|
             target.build_configurations.each do |config|
                 config.build_settings['IPHONEOS_DEPLOYMENT_TARGET'] = '15.0'
                 config.build_settings['CODE_SIGNING_ALLOWED'] = 'NO'
+                config.build_settings['BUILD_LIBRARY_FOR_DISTRIBUTION'] = 'YES'
              end
         end
   end

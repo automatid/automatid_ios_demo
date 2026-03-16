@@ -38,7 +38,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
 
-    [self.animationView setAnimation:self.animationToPlay];
+    [self.animationView setAnimationWithFileName:self.animationToPlay];
 
 
     self.titleLabel.font = [UIFont fontWithName:@"Montserrat-Bold" size:22];
