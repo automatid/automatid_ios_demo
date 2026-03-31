@@ -27,7 +27,7 @@
     NSBundle *amazingBundle = [NSBundle bundleForClass:[self class]];
     NSString * path = [amazingBundle.bundlePath stringByAppendingPathComponent:@"Licenses"];
     path = [path stringByAppendingPathComponent:AUTOMATID_LICENSE];
-    path = [path stringByAppendingString:@".sci"];
+    path = [path stringByAppendingString:@".json"];
     
     NSLog(@"Loading config file: %@", path);
 

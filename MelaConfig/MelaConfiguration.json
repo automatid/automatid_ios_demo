@@ -12,8 +12,9 @@
       "name" : "AUTOMATID_LICENSE",
       "type" : "define_value",
       "values" : {
-        "multi" : "@\"sci-demoapp-multi-ios\"",
-      	"prod" : "@\"sci-demoapp-prod-ios\""
+        "multi" : "@\"automatid-demoapp-multi-ios\"",
+      	"prod" : "@\"automatid-demoapp-pro-ios\"",
+	"pre" : "@\"automatid-demoapp-pre-ios\""
       }
     }
   ]

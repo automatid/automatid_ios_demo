@@ -2,7 +2,7 @@
 "feedback_share_jwt" = "Share JWT Token";
 "feedback_body_success" = "Your identity has been successfully verified.\nPlease find below the results.";
 "feedback_title_error" = "Error";
-"feedback_title_success" = "IIdentity verification successfully completed";
+"feedback_title_success" = "Identity verification successfully completed";
 
 "welcome_title" = "Welcome to AutomatID™";
 "welcome_body1" = "Smart Technology for Smart Identifications";
