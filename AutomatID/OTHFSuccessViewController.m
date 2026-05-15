@@ -7,7 +7,7 @@
 //
 
 #import "OTHFSuccessViewController.h"
-#import <AutomatID_OTMLCore/AutomatID_OTMPBase64.h>
+#import <OTHFOTMLCore/AutomatID_OTMPBase64.h>
 
 
 @interface OTHFSuccessViewController ()

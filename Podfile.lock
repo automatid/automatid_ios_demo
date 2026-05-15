@@ -1,37 +1,11 @@
 PODS:
-  - AutomatID (4.0.17):
-    - AutomatID_OTML (= 4.0.17)
-    - AutomatID_OTMLCore (= 4.0.17)
-    - AutomatID_OTMLFaceRecognitionAddon (= 4.0.17)
-    - AutomatID_OTMLModels (= 4.0.17)
-    - AutomatID_OTMLMRZReaderAddon (= 4.0.17)
-    - AutomatID_OTMLNfcDocumentReaderModule (= 4.0.17)
-  - AutomatID_OTML (4.0.17):
-    - AutomatID_OTMLCore (= 4.0.17)
-    - AutomatID_OTMLModels (= 4.0.17)
-    - AutomatID_OTTBXML (= 4.0.17)
-    - lottie-ios (~> 4)
-  - AutomatID_OTMLCore (4.0.17):
-    - SAMKeychain
-  - AutomatID_OTMLFaceRecognitionAddon (4.0.17):
-    - AutomatID_OTML (= 4.0.17)
-    - AutomatID_OTMLCore (= 4.0.17)
-    - AutomatID_OTMLModels (= 4.0.17)
-    - GoogleMLKit/FaceDetection (~> 6)
-  - AutomatID_OTMLModels (4.0.17):
-    - AutomatID_OTTBXML (= 4.0.17)
-  - AutomatID_OTMLMRZReaderAddon (4.0.17):
-    - AutomatID_OTML (= 4.0.17)
-    - AutomatID_OTMLCore (= 4.0.17)
-    - AutomatID_OTMLModels (= 4.0.17)
-    - GoogleMLKit/TextRecognition
-    - GPUImage
-  - AutomatID_OTMLNfcDocumentReaderModule (4.0.17):
-    - AutomatID_OTML (= 4.0.17)
-    - AutomatID_OTMLCore (= 4.0.17)
-    - AutomatID_OTMLModels (= 4.0.17)
-    - OpenSSL-Universal (~> 1.1)
-  - AutomatID_OTTBXML (4.0.17)
+  - AutomatID (4.0.19):
+    - OTHFOTML (= 4.0.19)
+    - OTHFOTMLCore (= 4.0.19)
+    - OTHFOTMLFaceRecognitionAddon (= 4.0.19)
+    - OTHFOTMLModels (= 4.0.19)
+    - OTHFOTMLMRZReaderAddon (= 4.0.19)
+    - OTHFOTMLNfcDocumentReaderModule (= 4.0.19)
   - Firebase/Core (10.29.0):
     - Firebase/CoreOnly
     - FirebaseAnalytics (~> 10.29.0)
@@ -190,6 +164,32 @@ PODS:
   - nanopb/decode (2.30910.0)
   - nanopb/encode (2.30910.0)
   - OpenSSL-Universal (1.1.2301)
+  - OTHFOTML (4.0.19):
+    - lottie-ios (~> 4)
+    - OTHFOTMLCore (= 4.0.19)
+    - OTHFOTMLModels (= 4.0.19)
+    - OTHFOTTBXML (= 4.0.19)
+  - OTHFOTMLCore (4.0.19):
+    - SAMKeychain
+  - OTHFOTMLFaceRecognitionAddon (4.0.19):
+    - GoogleMLKit/FaceDetection (~> 6)
+    - OTHFOTML (= 4.0.19)
+    - OTHFOTMLCore (= 4.0.19)
+    - OTHFOTMLModels (= 4.0.19)
+  - OTHFOTMLModels (4.0.19):
+    - OTHFOTTBXML (= 4.0.19)
+  - OTHFOTMLMRZReaderAddon (4.0.19):
+    - GoogleMLKit/TextRecognition
+    - GPUImage
+    - OTHFOTML (= 4.0.19)
+    - OTHFOTMLCore (= 4.0.19)
+    - OTHFOTMLModels (= 4.0.19)
+  - OTHFOTMLNfcDocumentReaderModule (4.0.19):
+    - OpenSSL-Universal (~> 1.1)
+    - OTHFOTML (= 4.0.19)
+    - OTHFOTMLCore (= 4.0.19)
+    - OTHFOTMLModels (= 4.0.19)
+  - OTHFOTTBXML (4.0.19)
   - PromisesObjC (2.4.0)
   - PromisesSwift (2.4.0):
     - PromisesObjC (= 2.4.0)
@@ -204,13 +204,13 @@ DEPENDENCIES:
 SPEC REPOS:
   "git@github.com:automatid/automatid_specs.git":
     - AutomatID
-    - AutomatID_OTML
-    - AutomatID_OTMLCore
-    - AutomatID_OTMLFaceRecognitionAddon
-    - AutomatID_OTMLModels
-    - AutomatID_OTMLMRZReaderAddon
-    - AutomatID_OTMLNfcDocumentReaderModule
-    - AutomatID_OTTBXML
+    - OTHFOTML
+    - OTHFOTMLCore
+    - OTHFOTMLFaceRecognitionAddon
+    - OTHFOTMLModels
+    - OTHFOTMLMRZReaderAddon
+    - OTHFOTMLNfcDocumentReaderModule
+    - OTHFOTTBXML
   https://github.com/CocoaPods/Specs.git:
     - Firebase
     - FirebaseAnalytics
@@ -243,14 +243,7 @@ SPEC REPOS:
     - SAMKeychain
 
 SPEC CHECKSUMS:
-  AutomatID: 8335ca951d2d3bb588133414b3c06bf33c72b5b0
-  AutomatID_OTML: 37fc4d615a321a7a13c45081a72c1669e56ef48d
-  AutomatID_OTMLCore: c3511c8bbfb79544d0bdb0e6b5e23f42cd0aa65a
-  AutomatID_OTMLFaceRecognitionAddon: cf5874f0cf266095ee1385d9d428d5abd0f40beb
-  AutomatID_OTMLModels: e40cd8ce2c33fa0f4ce0154e37d7527440df72b2
-  AutomatID_OTMLMRZReaderAddon: 8a1c1ba1b2b3ad83e2ede3a94b6fd254038d75a1
-  AutomatID_OTMLNfcDocumentReaderModule: 875cbb58106b8d7894484c05634b078915550049
-  AutomatID_OTTBXML: 023e93d6d9acf9c4f1c4e2c777c08186070ea732
+  AutomatID: 994f6e419f8817904ff2cb209af4aac1d3d9333e
   Firebase: cec914dab6fd7b1bd8ab56ea07ce4e03dd251c2d
   FirebaseAnalytics: 23717de130b779aa506e757edb9713d24b6ffeda
   FirebaseCore: 30e9c1cbe3d38f5f5e75f48bfcea87d7c358ec16
@@ -277,6 +270,13 @@ SPEC CHECKSUMS:
   MLKitVision: e858c5f125ecc288e4a31127928301eaba9ae0c1
   nanopb: 438bc412db1928dac798aa6fd75726007be04262
   OpenSSL-Universal: ca89c20240633a77c776082ba76b7d90f992bf77
+  OTHFOTML: f8019d653f885a47a8aa240e37279108a0b553f5
+  OTHFOTMLCore: 3a98e814dddbc80170c31d7efea6afe956ca56fe
+  OTHFOTMLFaceRecognitionAddon: c87173a0b57c50e8c189bbb0ae3ca31ff652c3ec
+  OTHFOTMLModels: 64ee2db96874ea1823072055cf5942c925cf49e5
+  OTHFOTMLMRZReaderAddon: 00a871f98300262622d6b11b4bcfbe896bd8135f
+  OTHFOTMLNfcDocumentReaderModule: b7c11d758b65cd83a42735e9305fee0c44a8a298
+  OTHFOTTBXML: 7fbfce4ee947465f777936ea30d8cefb5e9124e0
   PromisesObjC: f5707f49cb48b9636751c5b2e7d227e43fba9f47
   PromisesSwift: 9d77319bbe72ebf6d872900551f7eeba9bce2851
   SAMKeychain: 483e1c9f32984d50ca961e26818a534283b4cd5c

@@ -10,7 +10,7 @@
 #import "ProjectConfigurationAutomatID_DEMO_IOS.h"
 
 @import FirebaseCore;
-@import AutomatID_OTMLCore;
+@import OTHFOTMLCore;
 @import AVFoundation;
 
 @import AutomatID;
